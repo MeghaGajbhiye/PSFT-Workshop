@@ -40,6 +40,7 @@ In this, you sign in to the Oracle Cloud Infrastructure console using your crede
 ## **Step 2:** Creating Compartments
 
 Compartments Overview:
+
 A compartment is a collection of cloud assets, like compute instances, load balancers, databases, etc. By default, a root compartment was created for you when you created your tenancy (ie when you registered for the trial account). It is possible to create everything in the root compartment, but Oracle recommends that you create sub-compartments to help manage your resources more efficiently.
 
 1.	From the menu, select Identity and Compartments. Click on the blue Create Compartment button to create a sub-compartment.
@@ -54,12 +55,15 @@ A compartment is a collection of cloud assets, like compute instances, load bala
 
 ## **Step 3:** Managing Users, Groups and Policies to Control Access
 
-Security Overview
+Security Overview: 
+
 A user's permissions to access services comes from the groups to which they belong. The permissions for a group are defined by policies. Policies define what actions members of a group can perform, and in which compartments. Users can access services and perform operations based on the policies set for the groups of which they are members.
 
 We'll create a user, a group, and a security policy to understand the concept.
 
-1.	Sign in to the console, on the Menu click Identity, then select Groups.
+1.	After signing in to the console, click on the hamburger menu on the top left. Click on Identity -> Group.
+
+![](./images/group.png "")
 
 2.	Click Create Group.
 
