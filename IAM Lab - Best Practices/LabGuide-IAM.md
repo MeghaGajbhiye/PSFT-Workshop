@@ -1,4 +1,4 @@
-# Lab 300 : Create Identity and Access Management (IAM) Resources.
+# Lab 200 : Create Identity and Access Management (IAM) Resources.
 
 ## Introduction
 
@@ -31,7 +31,7 @@ In this, you sign in to the Oracle Cloud Infrastructure console using your crede
 
 4.	Oracle Cloud Infrastructure is integrated with Identity Cloud Services, you will see a screen validating your Identity Provider. Enter your username and password. Click Sign In.
 
-![](./images/3.png "")
+![](./images/signin.png "")
 
 5.	When you sign in to the Console, the dashboard is displayed.
 

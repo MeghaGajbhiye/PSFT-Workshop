@@ -22,6 +22,7 @@ The standard format is – https://myservices-<account_name>.console.oraclecloud
 
 3. Review your details and click **Submit**.
 
+4. You should shortly get an email with login details.
 
 
 
