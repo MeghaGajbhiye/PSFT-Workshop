@@ -5,11 +5,9 @@ In this hands on lab, you will be able to bring up and configure a Cloud Manager
 
 The lab can be divided into the following sections:
 
-Readme: Review the Prerequisites and set up your workstation/laptop 
-
 ## Overview of Labs
 
-Lab 100: Setup OCI and Review VM shapes available in your account/tenancy.
+Lab 100: Setup Oracle Cloud Infrastructure.
 
 Lab 200: Download and run the automation package to configure your tenancy, and deploy Cloud Manager. The automation will:
 

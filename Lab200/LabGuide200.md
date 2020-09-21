@@ -7,7 +7,7 @@ Time: 80 min
 
 ## Part 1. PeopleSoft setup
 
-1. Ensure Git Bash is installed on your laptop/workstation. - Test
+1. Ensure Git Bash is installed on your laptop/workstation.
 
 2. Download automation scripts bundle ‘psftcm-setup-3.0.zip’ - <a href="http://bit.ly/PSFTCM30">DOWNLOAD</a>
 
