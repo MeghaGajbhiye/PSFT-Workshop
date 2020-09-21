@@ -79,26 +79,26 @@ We'll create a user, a group, and a security policy to understand the concept.
 
 ![](./images/newgroup.png "")
 
-5.	Now, let’s create a security policy that gives your group permissions in your assigned compartment. In this case, create a policy that gives permission to group oci-group provision Peoplesoft Cloud Manager in Compartment Demo:
+5.	Now, let’s create a security policy that gives your group permissions in your assigned compartment. In this case, create a policy that gives permission to group oci-group to provision Peoplesoft Cloud Manager in Compartment Demo:
 
     a) Click on the three-line Menu button on the top left. Click on Identity -> Policies.
 
 ![](./images/policyn.png "")    
 
-    b) On the left side, navigate to **COMPARTMENT** and select root compartment. 
+    b) On the left side, navigate to COMPARTMENT and select root compartment. 
 
 ![](./images/compartmentselect.png "")
 
-```
-NOTE: You may need to click on the + sign next to your main compartment name to be able to see the sub-compartment Demo. If you do, and you still don't see the sub-compartment, Refresh your browser. Sometimes your browser caches the compartment information and does not update its internal cache.
-```
-
-    c) After you have selected the Demo compartment, click Create Policy.
+    c) After you have selected the root compartment, click Create Policy.
     d) Enter a unique Name for your policy (For example, "Policy-for-oci-group") Note that the name can NOT contain spaces.
     e) Enter a Description (for example, "Policy for OCI Group").
     f) Enter the following Statement:
+    
     ```
     Allow group oci-group to manage all-resources in compartment Demo
+    Allow group oci-group to read all-resources in tenancy
+    Allow group oci-group to manage App-catalog-listing in tenancy
+    
     ```
     g) Click Create.
 
