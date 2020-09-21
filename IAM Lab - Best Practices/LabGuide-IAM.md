@@ -61,7 +61,7 @@ A user's permissions to access services comes from the groups to which they belo
 
 We'll create a user, a group, and a security policy to understand the concept.
 
-1.	After signing in to the console, click on the hamburger menu on the top left. Click on Identity -> Group.
+1.	After signing in to the console, click on the three-line menu on the top left. Click on Identity -> Groups.
 
 ![](./images/group.png "")
 
@@ -73,19 +73,21 @@ We'll create a user, a group, and a security policy to understand the concept.
         2. Description: Enter a description (for example, “New group for oci users”).
         3. Click Submit.
 
-![](./images/7.png "")
+![](./images/creategroup.png "")
 
 4.	Your new group is displayed.
 
-![](./images/8.png "")
+![](./images/newgroup.png "")
 
-5.	Now, let’s create a security policy that gives your group permissions in your assigned compartment. For example, create a policy that gives permission to compartment Demo to members or group oci-group:
+5.	Now, let’s create a security policy that gives your group permissions in your assigned compartment. In this case, create a policy that gives permission to group oci-group provision Peoplesoft Cloud Manager in Compartment Demo:
 
-    a) On the Menu click Identity, and then click Policies.
+    a) Click on the three-line Menu button on the top left. Click on Identity -> Policies.
 
-    b) On the left side, select Demo compartment. 
+![](./images/policyn.png "")    
 
-![](./images/9.png "")
+    b) On the left side, navigate to **COMPARTMENT** and select root compartment. 
+
+![](./images/compartmentselect.png "")
 
 ```
 NOTE: You may need to click on the + sign next to your main compartment name to be able to see the sub-compartment Demo. If you do, and you still don't see the sub-compartment, Refresh your browser. Sometimes your browser caches the compartment information and does not update its internal cache.
