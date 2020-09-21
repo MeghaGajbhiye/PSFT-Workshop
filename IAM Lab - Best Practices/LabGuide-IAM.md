@@ -1,4 +1,4 @@
-# Lab : IAM Practice - Identity and Access Management
+# Lab : 300 Create Identity and Access Management (IAM) Resources.
 
 ## Introduction
 

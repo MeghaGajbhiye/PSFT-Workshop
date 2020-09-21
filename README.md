@@ -1,36 +1,27 @@
 # PeopleSoft Migration to Oracle Cloud Infrastructure 
 
 ## Introduction
-In this hands on lab, you will be able to bring up and configure a Cloud Manager instance in your tenancy, and provision a new PeopleSoft environment.  
+In this hands on lab, the users are provided with step-by-step instructions on setting up a user group, creating and adding users, creating compartment and respective policies in the Oracle Cloud Infrastructure. Subsequently, this guide instructs how to install the Cloud Manager 11 using Marketplace. The final section provides the steps to provision a PeopleSoft Environment followed by some simple hands-on exercises for you to get familiar with the system.
 
-The lab can be divided into the following sections:
+The lab is divided into the following sections:
 
 ## Overview of Labs
 
 Lab 100: Setup Oracle Cloud Infrastructure.
 
-Lab 200: Download and run the automation package to configure your tenancy, and deploy Cloud Manager. The automation will:
+Lab 200: Create Identity and Access Management (IAM) resources.
 
-	a. Create a user
-	b. Create a group
-	c. Create a compartment
-	d. Create a OCI policy, 
-	e. Create network resources – VCN and subnets
-	f. Subscribe to the Cloud Manager Marketplace image
-	g. Create Cloud Manager instance 
-	h. Bootstrap install Cloud Manager application
+Lab 300: Provision Peoplesoft Cloud Manager using Marketplace.
 
-Lab 300: Configure Cloud Manager Settings 
+Lab 400: Configure Cloud Manager Settings 
 
-Lab 400: Subscribe to PeopleSoft Download Channels 
+Lab 500: Subscribe to PeopleSoft Download Channels 
 
-Lab 500: Review and Update a Topology
+Lab 600: Review and Update a Topology
 
-Lab 600: Create a new Environment template
+Lab 700: Create a new Environment template
 
-Lab 700: Create Environment in Peoplesoft
-
-An additional Lab - IAM Best Practices is added. This lab guides you how to create compartments, users, policies once we log into the OCI console.
+Lab 800: Create Environment in Peoplesoft
 
 ## Time duration
 
