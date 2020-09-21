@@ -1,4 +1,4 @@
-# Lab 700 : Creating Environment in PeopleSoft
+# Lab 800 : Creating Environment in PeopleSoft
 
 ## Introduction
 Time: 50 mins

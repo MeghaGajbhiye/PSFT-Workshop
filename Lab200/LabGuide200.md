@@ -1,4 +1,4 @@
-# Lab 200 : Setting up Cloud Manager
+# Lab 300 : Setting up Cloud Manager
 
 ## Introduction
 This lab will guide you how to set up the Cloud Manager on your OCI tenancy
@@ -9,7 +9,7 @@ Time: 80 min
 
 1. Ensure Git Bash is installed on your laptop/workstation.
 
-2. Download automation scripts bundle ‘psftcm-setup-3.0.zip’ - <a href="http://bit.ly/PSFTCM30">DOWNLOAD</a>
+2. Download the following scripts ‘psftcm-setup-3.0.zip’ - <a href="http://bit.ly/PSFTCM30">DOWNLOAD</a>
 
 3. Extract psftcm-setup-3.0.zip to a new folder on the laptop/workstation. Let’s call it ‘psftcm setup-3.0’. 
 

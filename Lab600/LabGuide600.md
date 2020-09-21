@@ -1,4 +1,4 @@
-# Lab 600 : Creating new Environment Template
+# Lab 700 : Creating new Environment Template
 
 ## Introduction
 

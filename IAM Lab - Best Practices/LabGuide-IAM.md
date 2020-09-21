@@ -1,4 +1,4 @@
-# Lab : 300 Create Identity and Access Management (IAM) Resources.
+# Lab 300 : Create Identity and Access Management (IAM) Resources.
 
 ## Introduction
 

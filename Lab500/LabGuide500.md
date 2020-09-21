@@ -1,4 +1,4 @@
-# Lab 500 : Reviewing and updating a Topology
+# Lab 600 : Reviewing and updating a Topology
 
 ## Introduction
 Time: 10 mins

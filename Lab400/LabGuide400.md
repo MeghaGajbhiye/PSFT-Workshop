@@ -1,4 +1,4 @@
-# Lab 400 : Subscribing to PeopleSoft Download Channels
+# Lab 500 : Subscribing to PeopleSoft Download Channels
 
 ## Introduction
 
