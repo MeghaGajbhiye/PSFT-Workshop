@@ -115,11 +115,7 @@ After you create the Windows instance, use Remote Desktop Connection to access i
 3.	Navigate to Infrastructure Settings and update Operating System Images.     
     For Linux, enable **“Marketplace Image”** radio button and choose the latest version from the displayed list.
 
-    For Windows image, please select the **custom image from the following site depending on your region**. 
-
-    https://docs.cloud.oracle.com/en-us/iaas/images/image/146ab34c-064a-4255-b5ea-e26bbfa6591d/
-
-    For example, I have selected following image for us-ashburn-1 region, as that is my home region: **ocid1.image.oc1.iad.aaaaaaaahobtltelwdrzm6sd3nn6j7fsb3bwinq2ggmpcnsgdvhihnz2mhga**
+    For Windows image, please paste the OCID of the custom image you just created.
  
     ![](./images/image.png "")
 
@@ -133,7 +129,7 @@ After you create the Windows instance, use Remote Desktop Connection to access i
 
 7.	Click Create.  This action will create a file server in a few minutes. 
 
-8.	Wait until the file server status shows ‘FSS Configured’, and then the system is ready for downloads. 
+    This will take some time. Please wait until the file server status shows ‘FSS Configured’, and then the system will be ready for downloads. 
 
 
 
