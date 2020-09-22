@@ -180,7 +180,7 @@ We'll create a user, a group, and a security policy to understand the concept.
 
 ## **Step 4:** Creating a VCN
 
-1.	On the Oracle Cloud Infrastructure Console Home page, under the Quick Actions header for Network, click on Set up a network with a wizard.
+1.	On the Oracle Cloud Infrastructure Console Home page, under the Quick Actions header for Network, click on **Set up a network with a wizard**.
 
 [](./images/vcnw.png "")
 
@@ -188,7 +188,7 @@ We'll create a user, a group, and a security policy to understand the concept.
 
 ![](./images/vcn_2.png "")
 
-3.	Select VCN with Internet Connectivity, and then click on Start VCN Wizard.
+3.	Select VCN with Internet Connectivity, and then click on **Start VCN Wizard**.
 
 ![](./images/vcn_3.png "")
 
@@ -204,13 +204,14 @@ We'll create a user, a group, and a security policy to understand the concept.
 
 ![](./images/vcn_6.png "")
 
-7.	Press the Create button to create the VCN. It will take a moment to create the VCN and a progress screen will keep you apprised of the workflow.
+7.	Press the **Create** button to create the VCN. It will take a moment to create the VCN and a progress screen will keep you apprised of the workflow.
 
 ![](./images/vcn_7.png "")
 
-8.	Once you see that the creation is completed, click on the View Virtual Cloud Network button.
+8.	Once you see that the creation is completed, click on the **View Virtual Cloud Network** button.
 
 ### Summary
+
 This VCN will contain all of the other assets that you will create during this set of labs. In real-world situations, you would create multiple VCNs based on their need for access (which ports to open) and who can access them
 
 

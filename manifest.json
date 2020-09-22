@@ -28,24 +28,24 @@
         {
             "title": "Lab 500: Subscribing to PeopleSoft Download Channels",
             "publisheddate": "09/21/2020",
-            "filename": "./Lab400/LabGuide400.md"
+            "filename": "./Lab500/LabGuide500.md"
         },
         {
             "title": "Lab 600: Reviewing and updating a Topology",
-            "publisheddate": "09/21/2020",
-            "filename": "./Lab500/LabGuide500.md"
-        },
-
-        {
-            "title": "Lab 700: Creating new Environment Template",
             "publisheddate": "09/21/2020",
             "filename": "./Lab600/LabGuide600.md"
         },
 
         {
-            "title": "Lab 800: Creating Environment in PeopleSoft",
+            "title": "Lab 700: Creating new Environment Template",
             "publisheddate": "09/21/2020",
             "filename": "./Lab700/LabGuide700.md"
+        },
+
+        {
+            "title": "Lab 800: Creating Environment in PeopleSoft",
+            "publisheddate": "09/21/2020",
+            "filename": "./Lab800/LabGuide800.md"
         },
         {
             "title": "Additional Lab: Provision Environments with Windows Clients",
