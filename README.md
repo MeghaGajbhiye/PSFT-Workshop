@@ -40,12 +40,14 @@ Lab600, 700, 800, should take you approximately 60 to 75 minutes, you will be ab
 
 3. User brings their own workstation/laptop to access OCI console, PSFT Cloud Manager and provisioned instances. 
 
-5. User has access to a workstation/laptop with the following installed:
+4. User has access to a workstation/laptop with the following installed:
 
 	a. Git Bash for Windows - https://git-scm.com/download/win 
 
-	b. A web browser to connect to OCI web console and Cloud Manager PIA – Firefox or Chrome recommended.
+	b. Download Windows Remote Desktop Connection.
 
-	c. User must have admin privileges on their laptop to update the etc/hosts file to be able to add URL/IP address for PSFT Cloud Manager. Please let the team know if you can't get this access.
+	c. A web browser to connect to OCI web console and Cloud Manager PIA – Firefox or Chrome recommended.
+
+	d. User must have admin privileges on their laptop to update the etc/hosts file to be able to add URL/IP address for PSFT Cloud Manager. Please let the team know if you can't get this access.
 
 
