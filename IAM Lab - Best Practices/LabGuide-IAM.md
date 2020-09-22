@@ -79,7 +79,7 @@ We'll create a user, a group, and a security policy to understand the concept.
 
 ![](./images/newgroup.png "")
 
-5.	Now, let’s create a security policy that gives your group permissions in your assigned compartment. In this case, create a policy that gives permission to group oci-group to provision Peoplesoft Cloud Manager in Compartment Demo:
+5.	Now, let’s create a security policy that gives your group permissions in your assigned compartment. In this case, we will create a policy that gives permission to users belonging to group oci-group to provision Peoplesoft Cloud Manager in Compartment Demo:
 
     a) Click on the three-line Menu button on the top left. Click on Identity -> Policies.
 
@@ -110,14 +110,15 @@ We'll create a user, a group, and a security policy to understand the concept.
 
 6. Create a New User
    
-    a) On the Menu click Identity, and then click Users.
+    a) Click on three-line menu on top left, and click on Identity -> Users.
 
     b) Click Create User.
 
     c) In the New User dialog box, enter the following:
 
-        **Name:** Enter a unique name or email address for the new user. I recommend using a personal email address to which you have access (GMail, Yahoo, etc). This value is the user's login name for the Console and it must be unique across all other users in your tenancy.
+        **Name:** Enter a unique name. This user should have a unique name in the tenancy.
         **Description:** Enter a description. For example, New oci user.
+        **Email:** Enter your email ID. 
 
     ![](./images/createuser.png "")
 
@@ -130,29 +131,27 @@ We'll create a user, a group, and a security policy to understand the concept.
 
     b) Click Create/Reset Password.
 
-    ![](./images/12.png "")
+    ![](./images/userdetail.png "")
 
     c) In the dialog, click Create/Reset Password.
 
     ![](./images/13.png "")
 
-    d) The new one-time password is displayed.
+    d) The new one-time password is displayed. Click the Copy link and then click Close. Make sure to copy this password to your notepad.
 
     ![](./images/newpassword.png "")
 
-    e) Click the Copy link and then click Close. Make sure to copy this password to your notepad.
-
-    f) Scroll down and click on "Add User to Group".
+    e) Scroll down and click on "Add User to Group".
 
     ![](./images/scrolladdgroup.png "")
 
-    g) Select the group you just created, and click on **Add**.
+    f) Select the group you just created, and click on **Add**.
 
     ![](./images/adduser.png "")
 
-    f) Click Sign Out from the user menu and log out of the admin user account completely.
+    g) Click on top right icon button and Sign out of the admin user account.
 
-    ![](./images/15.png "")
+    ![](./images/signout.png "")
 
 
 8.	Sign in as the new user using a different web browser or an incognito window.
@@ -171,61 +170,11 @@ We'll create a user, a group, and a security policy to understand the concept.
     Note: Since this is the first-time sign-in, the user will be prompted to change the temporary password, as shown in the screen capture.
     ```
 
-    e) Set the new password to Welc0me2*bmcs. Click Save New Password. 
+    e) Set the new password to Psft@1234. Click Save New Password. 
 
     ![](./images/17.png "")
 
-
-9.	Verify user permissions
-
-    a) Go to the Menu click Compute and Instances.
-
-    b) Try to select any compartment from the left menu.
-
-    c) The message “You don’t have access to this compartment” appears. This is normal as you did not add the user to the group where you associated the policy. 
-
-    ![](./images/18.png "")
-
-    d) Sign out of the Console.
-
-
-10.	Add User to a Group
-
-    a) Sign in back with the admin account. 
-    
-    b) From the Users list, click the user account that you just created (for example, user01) to go to the user details page.
-
-    c) Under the Resources menu on the left, click Groups.
-
-    d) Click Add User to Group.
-
-    e) From the GROUPS drop-down list, select the oci-group that you created.
-
-    f) Click Add. 
-
-    ![](./images/19.png "")
-
-    g) Sign out of the Oracle Cloud website.
-
-
-11.	Verify user permissions when a user belongs to a specific group
-
-    a) Sign in with the local user01 account you created. Remember to use the latest password you assigned to this user.
-
-    b) Go to the Menu click Compute and Instances.
-
-    c) Select compartment Demo from the list of compartments on the left.
-
-    ![](./images/20.png "")
-
-    d) There is no message related to permissions and you are allowed to create new instances
-
-    e) Go to the Menu click Identity and select Groups.
-
-    f) The message “You don’t have access to these resources” appears. This is expected, since your user has no permission to modify groups. (Note: You may instead get the "An unexpected error occurred" message instead. That is also fine.)
-
-    g) Sign out.
-
+    You are now logged in as local user: User01
 
 ## **Step 4:** Creating a VCN
 
