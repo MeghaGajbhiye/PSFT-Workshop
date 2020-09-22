@@ -166,7 +166,7 @@ We'll create a user, a group, and a security policy to understand the concept.
 
     d) Enter the username **User01** and password that you copied.
 
-    ![](./images/homepage.png "")
+    ![](./images/signin.png "")
 
     ```
     Note: Since this is the first-time sign-in, the user will be prompted to change the temporary password, as shown in the screen capture.
