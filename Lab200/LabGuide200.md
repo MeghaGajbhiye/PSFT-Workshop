@@ -1,21 +1,24 @@
-# Lab 300 : Setting up Cloud Manager
+# Lab 300 : Provisioning Cloud Manager from Resource Manager.
 
 ## Introduction
-This lab will guide you how to set up the Cloud Manager on your OCI tenancy
+Resource Manager is an Oracle Cloud Infrastructure service that helps you install, configure, and manage resources. Resource Manager uses Terraform (which is part of the service) to codify your infrastructure in declarative configuration files, which allows you to review and edit, version, persist, reuse, and share them across teams. You can then use Resource Manager to provision Oracle Cloud Infrastructure resources using your Terraform configurations.
 
+In this tutorial, you obtain the configuration files, or stack, for Cloud Manager from the Oracle Cloud Infrastructure Marketplace, and use Resource Manager to create an instance and link it with associated resources such as a Virtual Cloud Network (VCN), subnet, gateways, and route tables. You enter the necessary passwords and other information in the Resource Manager interface, and choose the types of resources created.
 Time: 80 min
 
-## Part 1. PeopleSoft setup
+## Part 1. Generating Keys
 
 1. Ensure Git Bash is installed on your laptop/workstation.
 
-2. Download the following scripts - [make_keys.sh](make_keys.sh)
+2. Download the following script - [make_keys.sh](make_keys.sh)
 
-3. Launch Terminal or Git Bash for Windows command line and navigate to the folder where the file was downloaded.
+3. Launch Terminal for Mac or Git Bash for Windows command line and navigate to the folder where the file was downloaded.
 
-6. Run the script “bash make_keys.sh”
+4. Give permission to the file by typing in command line: **chmod 777 make_keys.sh**
 
-For Mac terminal run the command - "./make_keys.sh"
+6. For Windows, run the script as **bash make_keys.sh**
+
+For Mac terminal run the command - **./make_keys.sh**
 
 ![](./images/4.png "")
 
@@ -30,29 +33,40 @@ Note: These Keys are necessary for you to be able to securely connect into your 
 ```
 ![](./images/5.png "")
 
-## Part 2. Login into OCI
+## Part 2. Setting API keys for User01
 
-1. In a browser, launch the OCI console and navigate to Resource Manager -> Stacks.  
-Refer Lab 100 for details on how to get OCI console URL. 
+1. In a browser, launch the OCI console. Login as User01. After you are succesfully logged in, click on the **profle button on top right**. Click on your user name - User01.
+   (Refer to Lab 200 for details on how to login as User01.)
 
-![](./images/23.png "")
+![](./images/api.png "")
 
-2. Add a new stack by uploading the newly created psftcm-setup.zip file.  
+2. Scroll to the bottom, on the left side click on **API Keys** and then click on **Add Public Key**
 
-![](./images/8.png "")
+![](./images/apisetup.png "")
 
-3. Click Next.  
+3. Click on **Paste public keys** and Copy paste the content of **api_key.pub**. Click on **Add**.  
 
-You have to select an Availability Domain.  For the other variables, the default values should work in most cases.  Configure variables only if required.  If your tenancy has a different set of shapes, or they are allocated across different ADs, only then update the values. Otherwise, the defaults should work.
+![](./images/apikeypub.png "")
 
-![](./images/9.png "")
+![](./images/apipaste.png "")
+
+## Part 3. Gather Information for the Cloud Manager Stack
+
+1. From the same User detail page, copy the OCID by clicking on **copy**. Paste it in a notepad, you will need it later.
+
+2. On the top right, click on the region. Note the home region displayed. 
+
+![](./images/homeregion.png "")
+
+## Part 4. Obtain the PeopleSoft Cloud Manager Stack from the Marketplace
+
+To obtain the PeopleSoft Cloud Manager stack:
+
+1. On the Oracle Cloud Infrastructure console home page, click the top left three-line menu icon and select Marketplace -> Applications.
+
+![](./images/marketplace.png "")
 
 Below table summarizes the inputs in Configure Variables page.  
-
-```
-Please Note: If these values are not prefilled then you have not zipped up your psft_cm.zip file correctly as described in Step 8. 
-Please make sure you create the zip file within the directory you are zipping up.
-```
 
 Attribute | Value
 --------- | -----
