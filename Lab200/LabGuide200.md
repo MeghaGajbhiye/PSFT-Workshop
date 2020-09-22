@@ -31,7 +31,7 @@ For Mac terminal run the command - **./make_keys.sh**
 ```
 Note: These Keys are necessary for you to be able to securely connect into your PeopleSoft Cloud Tenancy.
 ```
-![](./images/5.png "")
+![](./images/apikeypub.png "")
 
 ## Part 2. Setting API keys for User01
 
@@ -44,7 +44,7 @@ Note: These Keys are necessary for you to be able to securely connect into your 
 
 ![](./images/apisetup.png "")
 
-3. Click on **Paste public keys** and Copy paste the content of **api_key.pub**. Click on **Add**.  
+3. Click on **Paste public keys** and Copy paste the content of **api_key.pub** ( the one you just created). Click on **Add**.  
 
 ![](./images/apikeypub.png "")
 
@@ -52,7 +52,11 @@ Note: These Keys are necessary for you to be able to securely connect into your 
 
 ## Part 3. Gather Information for the Cloud Manager Stack
 
-1. From the same User detail page, copy the OCID by clicking on **copy**. Paste it in a notepad, you will need it later.
+Paste below information in a notepad, you will need it later while creating the stack.
+
+1. From the same User detail page, copy the OCID by clicking on **copy**. 
+
+![](./images/ocid.png "")
 
 2. On the top right, click on the region. Note the home region displayed. 
 
@@ -66,27 +70,105 @@ To obtain the PeopleSoft Cloud Manager stack:
 
 ![](./images/marketplace.png "")
 
+2. Under Filters on the left, select Stack from the Type drop-down list, and Oracle from the Publisher drop-down list. Search for Peoplesoft on the search bar. Click the PeopleSoft Cloud Manager tile.
+
+![](./images/searchpsft.png "")
+
+3. On the Overview page for the PeopleSoft Cloud Manager stack, select the compartment to install the instance.
+Review the Oracle terms, and then select the option indicating that you have reviewed and understand the conditions.
+Click Launch Stack. 
+
+![](./images/launch.png "")
+
+4. On the Create Stack, Stack Information page, enter a stack name and description if desired.
+
+Click Next
+
+![](./images/psftname.png "")
+
+Continue with the steps in Enter Cloud Manager Instance Values.
+
+## Part 5. Enter Cloud Manager Instance Values
+
+The Create Stack, Configure Variables page includes a list of the parameters needed to create and configure the Cloud Manager instance.
+
+1. In the Cloud Manager Instance section, select the **Availability Domain as US-ASHBURN-AD-1**. 
+
+2. For **Shape, select VM.Standard2.2**. 
+
+3. Select the **storage volume size in GBs** for the secondary block volume for the Cloud Manager instance. We will set it as **200 GBs**.
+
+4. For SSH public key, enter content of your **id_rsa.pub** key (the one you created with the script) in a single line, with no line feeds or spaces.
+
+5. Enter your User OCID in a single line, with no line feeds or spaces.
+
+6. For API private key, enter the contents of your **api_key** file. 
 Below table summarizes the inputs in Configure Variables page.  
+
+7. Leave API Private passphrase as blank (Enter if you have created one).
+
+![](./images/values1.png "")
+
+8. For **Tenancy Home Region**, Select the home region for your tenancy from the drop-down list.
+
+9. Enter following value:
 
 Attribute | Value
 --------- | -----
-AVAILABILITY DOMAIN | Availability Domain for CM instance and for provisioning PSFT environment
-PRIVATE\_KEY\_PASSWD	| -
-SHAPE | VM.Standard2.1(Modify in case your tenancy does not have this shape)
-DB CONNECT PASSWORD	| peop1e
-ACCESS PASSWORD | SYSAD123
+DB CONNECT PASSWORD	| Passw0rd
+ACCESS PASSWORD | Passw0rd
 DB ADMIN PASSWORD | Passw0rd#
 CLOUD MANAGER ADMINISTRATOR PASSWORD | Passw0rd
 INTEGRATION GATEWAY USER PASSWORD | Passw0rd
 WEBLOGIC ADMINISTRATOR USER PASSWORD | Passw0rd
-WEB PROFILE USER PASSWORD | PTWEBSERVER
+WEB PROFILE USER PASSWORD | Passw0rd
 DOMAIN CONNECT PASSWORD | Passw0rd123
 
-4. Click Next and review your inputs.  
+![](./images/values2.png "")
 
-![](./images/10.png "")
+![](./images/values3.png "")
 
-5.	Click Create. This will add a new stack and open the stack details page. 
+10. In the Networking section, enter a host name for the Cloud Manager instance.
+This name will be used as part of the URL you use to access Cloud Manager in a browser.
+
+11. Clear the option Create Network Resources.
+
+12. From the Network Compartment drop-down list, select **Demo**.
+
+13. From the Existing Network drop-down list, select **OCIHOLVCN**.
+
+14. From the Existing Subnet for Cloud Manager drop-down list, select **Public Subnet-OCIHOLVCN (Regional)**
+
+15. Clear the option for **Create a Jump Host**
+
+![](./images/networkvalues.png "")
+
+16. Click Next. Review the configuration variables, and then click Create.  
+
+![](./images/review.png "")
+
+17.	This will add a new stack and open the stack details page. You can navigate to Variables to see all the assigned variables.
+
+![](./images/variablestack.png "")
+
+18. Click on **Terraform Actions** -> **Plan**.
+
+![](./images/plan.png "")
+
+19. Give plan name as **plan-job-1** and click on **Plan**
+
+![](./images/plandetail.png "")
+
+20. After plan is succeeded, click on **Terraform Actions** -> **Apply**.
+
+![](./images/plans.png "")
+
+![](./images/apply.png "")
+
+21. Give apply name as **apply-job-1** and click on **Apply**.
+
+![](./images/applydetail.png "")
+
 
 6.	On the stack details page, under “Terraform Actions”, click Plan.
 
