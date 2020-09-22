@@ -170,27 +170,15 @@ This name will be used as part of the URL you use to access Cloud Manager in a b
 ![](./images/applydetail.png "")
 
 
-6.	On the stack details page, under “Terraform Actions”, click Plan.
-
-![](./images/24.png "")
-
-7.	After the Plan completes successfully, run Terraform Apply.
-
-![](./images/11.png "")
-
-8.	Terraform Apply job is a long running process.  After it completes, the output from this job will have the IP address and PIA URL of CM instance.  To obtain those details, click on the Job name. 
+Terraform Apply job is a long running process.  After it completes, the output from this job will have the IP address and PIA URL of CM instance.  To obtain those details, click on the Job name. 
 
 ![](./images/12.png "")
 
-9.	On the job details page, click on Output link under Resources. 
+On the job details page, click on **Logs** under Resources. 
 
-![](./images/13.png "")
+Make a note of CM\_public\_ip and CM\_http\_url.
 
-10.	Make a note of the Windows\_2016\_Platform\_Image\_for\_CM value. This OCID will be required in the next section. 
-
-11.	Make a note of CM\_public\_ip and CM\_http\_url.
-
-12.	Add an entry to C:\Windows\System32\drivers\etc\hosts entry on your laptop/workstation as shown below. Use the hostname value for attribute CM\_http\_url. 
+12.	Windows: Add an entry to C:\Windows\System32\drivers\etc\hosts entry on your laptop/workstation as shown below. Use the hostname value for attribute CM\_http\_url. 
 
 	I.	Open Windows Search “Notepad”. Right Click on Notepad and open as Administrator.
 
@@ -201,22 +189,26 @@ This name will be used as part of the URL you use to access Cloud Manager in a b
 	```
 	129.213.145.213  labcm.cm.labnet.oraclevcn.com
 	```
+12.	Mac: Add an entry to /private/etc/hosts entry on your laptop/workstation. Use the hostname value for attribute CM\_http\_url. 
+
+	I.	Open Terminal and type **sudo /private/etc/hosts**
+	Add following with your CM HTTPS URL
+	```
+	129.213.145.213  labcm.cm.labnet.oraclevcn.com (This will change as per your IP address and URL)
+	```
+	![](./images/host.png "")
 
 ## Part 3. Accessing Cloud Manager using SSH
 
-1.	SSH key pair required to access Cloud Manager instance was created in step 6 in Part 1 of Lab 200. 
+SSH key pair required to access Cloud Manager instance was created in step 6 in Part 1 of Lab 200. 
 
-2.	The SSH key pair will be under the folder named ‘keys’, in the same folder where the psftcm-setup.zip was extracted. 
+1.	Launch terminal or Git Bash and navigate to the keys folder. 
 
-![](./images/15.png "")
-
-3.	Launch Git Bash and navigate to the keys folder. 
-
-4.	Retrieve the Cloud Manager IP address.  It was provided as output when the stack was applied.
+2.	Retrieve the Cloud Manager IP address.  It was provided as output when the stack was applied.
 
 ![](./images/16.png "")
 
-5.	SSH into the Cloud Manager instance using below command. 
+3.	Navigate to the folder where you have created the keys. SSH into the Cloud Manager instance using below command. 
 
 ```
 $ ssh -i id_rsa opc@129.213.145.213 //Use your IP
@@ -238,14 +230,6 @@ The deployment automation (Resource Manager Stack) provisions numerous resources
 
 ![](./images/19.png "")
 
-In this lab example, the Associated Resources show all the newly created resources. 
-
-![](./images/20.png "")
-
-![](./images/21.png "")
-
-![](./images/22.png "")
-
 3. After Cloud Manager bootstrap is complete, the CloudManagerStatus.log will show the following messages. 
 
 		The PeopleSoft Environment Setup Process Ended.
@@ -257,7 +241,7 @@ In this lab example, the Associated Resources show all the newly created resourc
 
 1. Launch a browser to access your Cloud Manager PIA URL (CM\_http\_url) –  http://labcm.cm.labnet.oraclevcn.com:8000
 
-2. To login, use the username CLADM and password that was provided for input parameter OPR_PWD. 
+2. To login, use the username CLADM and password as Passw0rd.
 
 
 
