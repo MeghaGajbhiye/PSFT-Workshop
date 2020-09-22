@@ -214,13 +214,6 @@ This time, you will sign in using local credentials box with the user you create
 This VCN will contain all of the other assets that you will create during this set of labs. In real-world situations, you would create multiple VCNs based on their need for access (which ports to open) and who can access them
 
 
-## **Step 6:** Create Windows Instance
-
-In this lab exercise, Windows node was removed from the topology to keep the provisioning process short and simple.  If you want to provision Windows instances as part of an environment at a later point in time, you can do so easily. 
-
-
-
-
 
 
 

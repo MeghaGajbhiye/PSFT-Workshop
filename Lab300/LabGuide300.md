@@ -15,9 +15,13 @@ Time: 20 min
 
 3.	Navigate to Infrastructure Settings and update Operating System Images. For Linux, enable “Marketplace Image” radio button and choose the latest version from the displayed list.
 
-For Windows image, use the value of “Windows_/2016_Platform_Image_for_CM” displayed earlier in the Outputs section of the stack.
+For Windows image, please select the custom image from the following site depending on your region. 
+
+https://docs.cloud.oracle.com/en-us/iaas/images/image/146ab34c-064a-4255-b5ea-e26bbfa6591d/
+
+For example, I have selected following image from us-ashburn-1 region as that is my home region: **ocid1.image.oc1.iad.aaaaaaaahobtltelwdrzm6sd3nn6j7fsb3bwinq2ggmpcnsgdvhihnz2mhga**
  
-![](./images/2.png "")
+![](./images/image.png "")
 
 4.	Click ‘Save’ to save the configuration. 
 
