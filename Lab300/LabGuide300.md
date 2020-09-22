@@ -59,7 +59,7 @@ After you create the Windows instance, use Remote Desktop Connection to access i
 
 6. Change the password to a complex password. You will change it again in a later section.
 
-## Part 4. Create a Generalized Image
+## Part 3. Create a Generalized Image
 
 1. In the Windows instance VM, open a browser and go to Windows Generalized Image Support Files.
 
@@ -80,7 +80,7 @@ After you create the Windows instance, use Remote Desktop Connection to access i
 
 7. Wait a few minutes for the process to complete.
 
-## Part 6. Create a Custom Image
+## Part 4. Create a Custom Image
 
 1. In Compute Console, select Compute, Instances.
 
@@ -104,7 +104,7 @@ After you create the Windows instance, use Remote Desktop Connection to access i
 
 **NOTE**: After you create the custom image, you can safely remove the instance used to create the image.
 
-## Part 7. Configuring settings
+## Part 5. Configuring settings
 
 1.	Navigate to **Cloud Manager Dashboard -> Cloud Manager Settings -> Cloud Manager Settings**.
 
