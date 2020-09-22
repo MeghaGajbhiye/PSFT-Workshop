@@ -182,9 +182,9 @@ We'll create a user, a group, and a security policy to understand the concept.
 
 1.	On the Oracle Cloud Infrastructure Console Home page, under the Quick Actions header for Network, click on Set up a network with a wizard.
 
-![](./images/vcnwizard.png "")
-
 2. Scroll to the bottom left, and select the compartment "Demo"
+
+![](./images/vcnwizard.png "")
 
 ![](./images/vcn_2.png "")
 
