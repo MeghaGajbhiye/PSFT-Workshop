@@ -31,7 +31,7 @@ In this, you sign in to the Oracle Cloud Infrastructure console using your crede
 
 4.	Oracle Cloud Infrastructure is integrated with Identity Cloud Services, you will see a screen validating your Identity Provider. Enter your username and password. Click Sign In.
 
-![](./images/signin.png "")
+![](./images/3.png "")
 
 5.	When you sign in to the Console, the dashboard is displayed.
 
@@ -39,15 +39,17 @@ In this, you sign in to the Oracle Cloud Infrastructure console using your crede
 
 ## **Step 2:** Creating Compartments
 
-Compartments Overview:
+**Compartments Overview:**
 
 A compartment is a collection of cloud assets, like compute instances, load balancers, databases, etc. By default, a root compartment was created for you when you created your tenancy (ie when you registered for the trial account). It is possible to create everything in the root compartment, but Oracle recommends that you create sub-compartments to help manage your resources more efficiently.
 
-1.	From the menu, select Identity and Compartments. Click on the blue Create Compartment button to create a sub-compartment.
+1.	Click on three-line menu which is on the top left of the console. Scroll down till the bottom of the menu, click on **Identity -> Compartments**. Click on the blue **Create Compartment** button to create a sub-compartment.
 
 ![](./images/compartmentn.png "")
 
-2.	Name the compartment Demo and provide a short description. Be sure your root compartment is shown as the parent compartment. Press the blue Create Compartment button when ready.
+![](./images/createcompartment.png "")
+
+2.	Name the compartment **Demo** and provide a short description. Be sure your root compartment is shown as the parent compartment. Press the blue **Create Compartment button** when ready.
 
 ![](./images/compartment.png "")
 
@@ -55,22 +57,24 @@ A compartment is a collection of cloud assets, like compute instances, load bala
 
 ## **Step 3:** Managing Users, Groups and Policies to Control Access
 
-Security Overview: 
+**Security Overview:** 
 
 A user's permissions to access services comes from the groups to which they belong. The permissions for a group are defined by policies. Policies define what actions members of a group can perform, and in which compartments. Users can access services and perform operations based on the policies set for the groups of which they are members.
 
 We'll create a user, a group, and a security policy to understand the concept.
 
-1.	After signing in to the console, click on the three-line menu on the top left. Click on Identity -> Groups.
+1.	After signing in to the console, click on the three-line menu on the top left. Click on **Identity -> Groups**.
 
 ![](./images/group.png "")
 
-2.	Click Create Group.
+2.	Click **Create Group**.
 
 3.	In the Create Group dialog box, enter the following:
 
         1. Name: Enter a unique name for your group such as "oci-group” Note that the group name cannot contain spaces.
+
         2. Description: Enter a description (for example, “New group for oci users”).
+
         3. Click Submit.
 
 ![](./images/creategroup.png "")
@@ -81,17 +85,17 @@ We'll create a user, a group, and a security policy to understand the concept.
 
 5.	Now, let’s create a security policy that gives your group permissions in your assigned compartment. In this case, we will create a policy that gives permission to users belonging to group oci-group to provision Peoplesoft Cloud Manager in Compartment Demo:
 
-    a) Click on the three-line Menu button on the top left. Click on Identity -> Policies.
+    a) Click on the three-line Menu button on the top left. Click on **Identity -> Policies**.
 
     ![](./images/policyn.png "")    
 
-    b) On the left side, navigate to COMPARTMENT and select root compartment. 
+    b) On the left side, navigate to **COMPARTMENT** and select **root compartment**. 
 
     ![](./images/compartmentselect.png "")
 
-    c) After you have selected the root compartment, click Create Policy.
+    c) After you have selected the root compartment, click **Create Policy**.
 
-    d) Enter a unique Name for your policy (For example, "Policy-for-oci-group") Note that the name can NOT contain spaces.
+    d) Enter a unique Name for your policy (For example, "Policy-for-oci-group") Note that the **name can NOT contain spaces**.
 
     e) Enter a Description (for example, "Policy for OCI Group").
 
@@ -103,45 +107,47 @@ We'll create a user, a group, and a security policy to understand the concept.
     Allow group oci-group to manage App-catalog-listing in tenancy
     ```  
 
-    g) Click Create.
+    g) Click **Create**.
 
     ![](./images/policy.png "")    
 
 
-6. Create a New User
+6. Create a **New User**
    
-    a) Click on three-line menu on top left, and click on Identity -> Users.
+    a) Click on three-line menu on top left, and click on **Identity -> Users**.
 
-    b) Click Create User.
+    b) Click **Create User**.
 
     c) In the New User dialog box, enter the following:
 
-        **Name:** Enter a unique name. This user should have a unique name in the tenancy.
-        **Description:** Enter a description. For example, New oci user.
-        **Email:** Enter your email ID. 
+        Name: Enter a unique name. This user should have a unique name in the tenancy.
+
+        Description: Enter a description. For example, New oci user.
+
+        Email: Enter your email ID and verify it. 
 
     ![](./images/createuser.png "")
 
-    d) Click Create.
+    d) Click **Create**.
 
 
-7.	Set a Temporary Password for the newly created User
+7.	Set a **Temporary Password** for the newly created User
 
     a) After the user is created, you can see the user details.
 
-    b) Click Create/Reset Password.
+    b) Click **Create/Reset Password**.
 
     ![](./images/userdetail.png "")
 
-    c) In the dialog, click Create/Reset Password.
+    c) In the dialog, click **Create/Reset Password**.
 
     ![](./images/13.png "")
 
-    d) The new one-time password is displayed. Click the Copy link and then click Close. Make sure to copy this password to your notepad.
+    d) The new one-time password is displayed. Click the **Copy button** and then click Close. Make sure to copy this password to your notepad.
 
     ![](./images/newpassword.png "")
 
-    e) Scroll down and click on "Add User to Group".
+    e) Scroll down and click on **Add User to Group**.
 
     ![](./images/scrolladdgroup.png "")
 
@@ -149,22 +155,16 @@ We'll create a user, a group, and a security policy to understand the concept.
 
     ![](./images/adduser.png "")
 
-    g) Click on top right icon button and Sign out of the admin user account.
+    g) Click on **top right icon button** and **Sign out** of the admin user account.
 
     ![](./images/signout.png "")
 
 
-8.	Sign in as the new user using a different web browser or an incognito window.
+This time, you will sign in using local credentials box with the user you created. Note that the user you created is not part of the Identity Cloud Services.
 
-    a) Go to https://oracle.com.
+    d) Enter the username **User01** and password that you copied.
 
-    b) Enter the Tenant name, if prompted.
-
-    c) This time, you will sign in using local credentials box with the user you created. Note that the user you created is not part of the Identity Cloud Services.
-
-    d) Enter the password that you copied.
-
-    ![](./images/16.png "")
+    ![](./images/homepage.png "")
 
     ```
     Note: Since this is the first-time sign-in, the user will be prompted to change the temporary password, as shown in the screen capture.
