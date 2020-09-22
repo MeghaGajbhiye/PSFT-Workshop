@@ -21,34 +21,29 @@
             "filename": "./Lab200/LabGuide200.md"
         },
         {
-            "title": "Lab 400: Setting up Cloud Manager",
-            "publisheddate": "09/21/2020",
-            "filename": "./Lab200/LabGuide200.md"
-        },
-        {
-            "title": "Lab 500: Configure Cloud Manager Settings",
+            "title": "Lab 400: Configure Cloud Manager Settings",
             "publisheddate": "09/21/2020",
             "filename": "./Lab300/LabGuide300.md"
         },
         {
-            "title": "Lab 600: Subscribing to PeopleSoft Download Channels",
+            "title": "Lab 500: Subscribing to PeopleSoft Download Channels",
             "publisheddate": "09/21/2020",
             "filename": "./Lab400/LabGuide400.md"
         },
         {
-            "title": "Lab 700: Reviewing and updating a Topology",
+            "title": "Lab 600: Reviewing and updating a Topology",
             "publisheddate": "09/21/2020",
             "filename": "./Lab500/LabGuide500.md"
         },
 
         {
-            "title": "Lab 800: Creating new Environment Template",
+            "title": "Lab 700: Creating new Environment Template",
             "publisheddate": "09/21/2020",
             "filename": "./Lab600/LabGuide600.md"
         },
 
         {
-            "title": "Lab 900: Creating Environment in PeopleSoft",
+            "title": "Lab 800: Creating Environment in PeopleSoft",
             "publisheddate": "09/21/2020",
             "filename": "./Lab700/LabGuide700.md"
         },
