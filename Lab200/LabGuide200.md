@@ -16,9 +16,9 @@ Time: 80 min
 
 4. Give permission to the file by typing in command line: **chmod 777 make_keys.sh**
 
-6. For Windows, run the script as **bash make_keys.sh**
+6. For Windows, run the script as **"bash make_keys.sh"**
 
-For Mac terminal run the command - **./make_keys.sh**
+For Mac terminal run the command - **"./make_keys.sh"**
 
 ![](./images/4.png "")
 
@@ -88,7 +88,7 @@ Click Next
 
 Continue with the steps in Enter Cloud Manager Instance Values.
 
-## Part 5. Enter Cloud Manager Instance Values
+## Part 5. Enter Cloud Manager Instance Values and provision PSFT Cloud Manager.
 
 The Create Stack, Configure Variables page includes a list of the parameters needed to create and configure the Cloud Manager instance.
 
@@ -115,14 +115,14 @@ Below table summarizes the inputs in Configure Variables page.
 
 Attribute | Value
 --------- | -----
-DB CONNECT PASSWORD	| Passw0rd
-ACCESS PASSWORD | Passw0rd
-DB ADMIN PASSWORD | Passw0rd#
-CLOUD MANAGER ADMINISTRATOR PASSWORD | Passw0rd
-INTEGRATION GATEWAY USER PASSWORD | Passw0rd
-WEBLOGIC ADMINISTRATOR USER PASSWORD | Passw0rd
-WEB PROFILE USER PASSWORD | Passw0rd
-DOMAIN CONNECT PASSWORD | Passw0rd123
+DB CONNECT PASSWORD	| Psft1234
+ACCESS PASSWORD | Psft1234
+DB ADMIN PASSWORD | Psft1234#
+CLOUD MANAGER ADMINISTRATOR PASSWORD | Psft1234
+INTEGRATION GATEWAY USER PASSWORD | Psft1234
+WEBLOGIC ADMINISTRATOR USER PASSWORD | Psft1234
+WEB PROFILE USER PASSWORD | Psft1234
+DOMAIN CONNECT PASSWORD | Psft1234
 
 ![](./images/values2.png "")
 
@@ -176,9 +176,11 @@ Terraform Apply job is a long running process.  After it completes, the output f
 
 On the job details page, click on **Logs** under Resources. 
 
-Make a note of CM\_public\_ip and CM\_http\_url.
+Scroll at the bottom and make a note of CM\_public\_ip and CM\_http\_url. (Wait for a while if you can't see this information)
 
-12.	Windows: Add an entry to C:\Windows\System32\drivers\etc\hosts entry on your laptop/workstation as shown below. Use the hostname value for attribute CM\_http\_url. 
+![](./images/output.png "")
+
+22.	Windows: Add an entry to C:\Windows\System32\drivers\etc\hosts entry on your laptop/workstation as shown below. Use the hostname value for attribute CM\_http\_url (not the port number). 
 
 	I.	Open Windows Search “Notepad”. Right Click on Notepad and open as Administrator.
 
@@ -187,18 +189,20 @@ Make a note of CM\_public\_ip and CM\_http\_url.
 	II.	Go to File -> Open -> C:\Windows\System32\drivers\etc\hosts, and append below entry
 
 	```
+	CM_public_ip  Host of CM_http_url
+
 	129.213.145.213  labcm.cm.labnet.oraclevcn.com
 	```
-12.	Mac: Add an entry to /private/etc/hosts entry on your laptop/workstation. Use the hostname value for attribute CM\_http\_url. 
+23.	Mac: Add an entry to /private/etc/hosts entry on your laptop/workstation. Use the hostname value for attribute CM\_http\_url. 
 
-	I.	Open Terminal and type **sudo /private/etc/hosts**
+	I.	Open Terminal and type **sudo vi /private/etc/hosts**
 	Add following with your CM HTTPS URL
 	```
-	129.213.145.213  labcm.cm.labnet.oraclevcn.com (This will change as per your IP address and URL)
+	CM_public_ip  Host of CM_http_url
 	```
 	![](./images/host.png "")
 
-## Part 3. Accessing Cloud Manager using SSH
+## Part 6. Accessing Cloud Manager using SSH
 
 SSH key pair required to access Cloud Manager instance was created in step 6 in Part 1 of Lab 200. 
 
@@ -214,7 +218,7 @@ SSH key pair required to access Cloud Manager instance was created in step 6 in 
 $ ssh -i id_rsa opc@129.213.145.213 //Use your IP
 ```
 
-## Part 4. Monitoring Cloud Manager
+## Part 7. Monitoring Cloud Manager
 
 1. SSH into Cloud Manager instance to check status of deployment.  Monitor Cloud Manager bootstrap installation using below command.
 
@@ -237,7 +241,7 @@ The deployment automation (Resource Manager Stack) provisions numerous resources
 		Cloud Manager PIA URL: http://labcm.cm.labnet.oraclevcn.com:8000 
 		Cloud Manager PIA SSL URL: https://labcm.cm.labnet.oraclevcn.com:8443
 
-## Part 5. Access Cloud Manager
+## Part 8. Access Cloud Manager
 
 1. Launch a browser to access your Cloud Manager PIA URL (CM\_http\_url) –  http://labcm.cm.labnet.oraclevcn.com:8000
 

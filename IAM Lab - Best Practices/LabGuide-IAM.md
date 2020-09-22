@@ -180,71 +180,38 @@ This time, you will sign in using local credentials box with the user you create
 
 ## **Step 4:** Creating a VCN
 
-1.	On the Oracle Cloud Infrastructure Console Home page, under the Quick Actions header, click on Set up a network with a wizard.
+1.	On the Oracle Cloud Infrastructure Console Home page, under the Quick Actions header for Network, click on Set up a network with a wizard.
 
-![](./images/VCN1.png "")
+![](./images/vcn_1.png "")
 
-2.	Select VCN with Internet Connectivity, and then click Start Workflow.
+2. SCroll to the bottom left, and select the compartment "Demo"
 
-![](./images/VCN2.png "")
+![](./images/vcn_2.png "")
 
-3.	Complete the following fields:
+3.	Select VCN with Internet Connectivity, and then click on Start VCN Wizard.
 
-Field |	Vaue
------ | ----
-VCN NAME |	OCI_HOL_VCN
-COMPARTMENT	| Choose the Demo compartment you created in the Identity Lab
-VCN CIDR BLOCK |	10.0.0.0/16
-PUBLIC SUNBET CIDR BLOCK |	10.0.2.0/24
-PRIVATE SUBNET CIDR BLOCK |	10.0.1.0/24
-USE DNS HOSTNAMES IN THIS VCN |	Checked
+![](./images/vcn_3.png "")
 
-4.	Your screen should look similar to the following:
+4.	Keep all the fields as default.
 
-![](./images/VCN3.png "")
+5.	Your screen should look similar to the following:
+
+![](./images/vcn_4.png "")
 
 5.	Press the Next button at the bottom of the screen.
 
 6.	Review your settings to be sure they are correct. 
 
-![](./images/VCN4.png "")
+![](./images/vcn_6.png "")
 
-7.	Press the Create button to create the VCN. I will take a moment to create the VCN and a progress screen will keep you apprised of the workflow.
+7.	Press the Create button to create the VCN. It will take a moment to create the VCN and a progress screen will keep you apprised of the workflow.
 
-![](./images/VCN5.png "")
+![](./images/vcn_7.png "")
 
-8.	Once you see that the creation is complete (see previous screenshot), click on the View Virtual Cloud Network button.
+8.	Once you see that the creation is completed, click on the View Virtual Cloud Network button.
 
 ### Summary
 This VCN will contain all of the other assets that you will create during this set of labs. In real-world situations, you would create multiple VCNs based on their need for access (which ports to open) and who can access them
-
-
-## **Step 5:** Creating a new subnet
-
-1.	Navigate to Menu -> Networking -> Virtual Cloud Networks.  Set the Compartment to ‘PSFT_Lab’.  Click on the existing VCN "OCI_HOL_VCN". 
-
-![](./images/subnet1.png "")
-
-2.	Click on Create Subnet button to add a new subnet. Use default route table, and default DHCP options. Use 10.0.8.0/24 as the CIDR for subnet. 
-
-![](./images/subnet2.png "")
-
-Attribute | Value
---------- | -----
-Name|	MySubnet
-Subnet Type	| Availability Domain-specific
-Availability Domain	| AD 3
-CIDR Block| 	10.0.8.0/24
-Route Table	 | Default Route Table for labnet
-Subnet Access| 	Public Subnet
-DNS Resolution|	Enable Use DNS hostnames in this SUBNET
-Security List	|Add two security lists using the button + Additional Security List as shown in below screenshot - 1. cm_sec 2. Default Security List for labnet
-
-![](./images/subnet3.png "")
-
-3.	Click Create Subnet.  The newly created subnet will be as shown 
-
-![](./images/subnet4.png "")
 
 
 ## **Step 6:** Create Windows Instance
