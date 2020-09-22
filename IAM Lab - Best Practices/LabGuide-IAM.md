@@ -83,11 +83,11 @@ We'll create a user, a group, and a security policy to understand the concept.
 
     a) Click on the three-line Menu button on the top left. Click on Identity -> Policies.
 
-![](./images/policyn.png "")    
+    ![](./images/policyn.png "")    
 
     b) On the left side, navigate to COMPARTMENT and select root compartment. 
 
-![](./images/compartmentselect.png "")
+    ![](./images/compartmentselect.png "")
 
     c) After you have selected the root compartment, click Create Policy.
     d) Enter a unique Name for your policy (For example, "Policy-for-oci-group") Note that the name can NOT contain spaces.
@@ -98,11 +98,11 @@ We'll create a user, a group, and a security policy to understand the concept.
     Allow group oci-group to manage all-resources in compartment Demo
     Allow group oci-group to read all-resources in tenancy
     Allow group oci-group to manage App-catalog-listing in tenancy
-    
-    ```
+    ```  
+
     g) Click Create.
 
-![](./images/10.png "")
+    ![](./images/policy.png "")    
 
 
 6. Create a New User
@@ -116,14 +116,15 @@ We'll create a user, a group, and a security policy to understand the concept.
         **Name:** Enter a unique name or email address for the new user. I recommend using a personal email address to which you have access (GMail, Yahoo, etc). This value is the user's login name for the Console and it must be unique across all other users in your tenancy.
         **Description:** Enter a description. For example, New oci user.
 
-![](./images/11.png "")
+    ![](./images/createuser.png "")
 
     d) Click Create.
 
 
 7.	Set a Temporary Password for the newly created User
 
-    a) From the list of users, click on the user that you created to display its details.
+    a) After the user is created, you can see the user details.
+
     b) Click Create/Reset Password.
 
     ![](./images/12.png "")
@@ -134,9 +135,17 @@ We'll create a user, a group, and a security policy to understand the concept.
 
     d) The new one-time password is displayed.
 
-    ![](./images/14.png "")
+    ![](./images/newpassword.png "")
 
     e) Click the Copy link and then click Close. Make sure to copy this password to your notepad.
+
+    f) Scroll down and click on "Add User to Group".
+
+    ![](./images/scrolladdgroup.png "")
+
+    g) Select the group you just created, and click on **Add**.
+
+    ![](./images/adduser.png "")
 
     f) Click Sign Out from the user menu and log out of the admin user account completely.
 
