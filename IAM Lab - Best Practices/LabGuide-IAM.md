@@ -172,7 +172,7 @@ We'll create a user, a group, and a security policy to understand the concept.
     Note: Since this is the first-time sign-in, the user will be prompted to change the temporary password, as shown in the screen capture.
     ```
 
-    e) Set the new password to Psft@1234. Click Save New Password. 
+    e) Set the new password to Psft@1234. Click on **Save New Password**. 
 
     ![](./images/17.png "")
 
@@ -182,9 +182,9 @@ We'll create a user, a group, and a security policy to understand the concept.
 
 1.	On the Oracle Cloud Infrastructure Console Home page, under the Quick Actions header for Network, click on Set up a network with a wizard.
 
-![](./images/vcn_1.png "")
+![](./images/vcnwizard.png "")
 
-2. SCroll to the bottom left, and select the compartment "Demo"
+2. Scroll to the bottom left, and select the compartment "Demo"
 
 ![](./images/vcn_2.png "")
 
