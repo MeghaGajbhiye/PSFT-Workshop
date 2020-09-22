@@ -35,7 +35,7 @@ In this, you sign in to the Oracle Cloud Infrastructure console using your crede
 
 5.	When you sign in to the Console, the dashboard is displayed.
 
-![](./images/4.png "")
+![](./images/homepage.png "")
 
 ## **Step 2:** Creating Compartments
 
@@ -45,11 +45,11 @@ A compartment is a collection of cloud assets, like compute instances, load bala
 
 1.	From the menu, select Identity and Compartments. Click on the blue Create Compartment button to create a sub-compartment.
 
-![](./images/5.png "")
+![](./images/compartmentn.png "")
 
 2.	Name the compartment Demo and provide a short description. Be sure your root compartment is shown as the parent compartment. Press the blue Create Compartment button when ready.
 
-![](./images/6.png "")
+![](./images/compartment.png "")
 
 3.	You have just created a compartment for all of your work in this Test Drive.
 
@@ -90,8 +90,11 @@ We'll create a user, a group, and a security policy to understand the concept.
     ![](./images/compartmentselect.png "")
 
     c) After you have selected the root compartment, click Create Policy.
+
     d) Enter a unique Name for your policy (For example, "Policy-for-oci-group") Note that the name can NOT contain spaces.
+
     e) Enter a Description (for example, "Policy for OCI Group").
+
     f) Enter the following Statement:
     
     ```
