@@ -162,7 +162,7 @@ We'll create a user, a group, and a security policy to understand the concept.
     ![](./images/signout.png "")
 
 
-This time, you will sign in using local credentials box with the user you created. Note that the user you created is not part of the Identity Cloud Services.
+    This time, you will sign in using local credentials box with the user you created. Note that the user you created is not part of the Identity Cloud Services.
 
     d) Enter the username **User01** and password that you copied.
 
