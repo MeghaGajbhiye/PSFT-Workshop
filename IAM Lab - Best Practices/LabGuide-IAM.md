@@ -31,6 +31,8 @@ In this, you sign in to the Oracle Cloud Infrastructure console using your crede
 
 4.	Oracle Cloud Infrastructure is integrated with Identity Cloud Services, you will see a screen validating your Identity Provider. Enter your username and password. Click Sign In.
 
+![](./images/signin1.png "")
+
 ![](./images/3.png "")
 
 5.	When you sign in to the Console, the dashboard is displayed.
@@ -107,9 +109,9 @@ We'll create a user, a group, and a security policy to understand the concept.
     Allow group oci-group to manage App-catalog-listing in tenancy
     ```  
 
-    g) Click **Create**.
-
     ![](./images/policy.png "")    
+
+    g) Click **Create**.
 
 
 6. Create a **New User**
@@ -124,7 +126,7 @@ We'll create a user, a group, and a security policy to understand the concept.
 
         Description: Enter a description. For example, New oci user.
 
-        Email: Enter your email ID and verify it. 
+        Email: Enter your email ID and confirm it. 
 
     ![](./images/createuser.png "")
 

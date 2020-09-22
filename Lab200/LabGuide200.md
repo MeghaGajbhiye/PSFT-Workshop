@@ -9,21 +9,9 @@ Time: 80 min
 
 1. Ensure Git Bash is installed on your laptop/workstation.
 
-2. Download the following scripts ‘psftcm-setup-3.0.zip’ - <a href="http://bit.ly/PSFTCM30">DOWNLOAD</a>
+2. Download the following scripts - [make_keys.sh](make_keys.sh)
 
-3. Extract psftcm-setup-3.0.zip to a new folder on the laptop/workstation. Let’s call it ‘psftcm setup-3.0’. 
-
-Below are the contents in the zip file. 
-
-![](./images/2.png "")
-
-4. Launch Git Bash for Windows command line and navigate to the newly extracted folder – ‘psftcm setup-3.0’.
-
-In case of Mac, open terminal, navigate to the folder - 'psftcm setup-3.0'
-
-5. Change directory to “keys” folder, under the extracted folder
-
-![](./images/3.png "")
+3. Launch Terminal or Git Bash for Windows command line and navigate to the folder where the file was downloaded.
 
 6. Run the script “bash make_keys.sh”
 
@@ -42,16 +30,7 @@ Note: These Keys are necessary for you to be able to securely connect into your 
 ```
 ![](./images/5.png "")
 
-8. Zip the contents in the extracted folder into a new zip file.  Let’s call it ‘psftcm-setup.zip’.  Note – The zip file should be created as shown below.  
-
-Select all files -> right-click -> Send to -> Compressed folder.  
-Rename the zip file. 
-
-![](./images/6.png "")
-
-![](./images/7.png "")
-
-## Part 2. Shift into OCI
+## Part 2. Login into OCI
 
 1. In a browser, launch the OCI console and navigate to Resource Manager -> Stacks.  
 Refer Lab 100 for details on how to get OCI console URL. 
