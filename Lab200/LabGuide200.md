@@ -201,7 +201,7 @@ Below are the steps for both windows (step 1) and Mac (step 2). Make sure you ha
 	```
 23.	Mac: Add an entry to /private/etc/hosts entry on your laptop/workstation. Use the hostname value for attribute CM\_http\_url. (Hostname is everything after **http://** and before **:8000**, in my case it is psftcm.sub09220136550.ociholvcn.oraclevcn.com. Check your CM\_http\_url from above step and modify it as per)
 
-	I.	Open Terminal and type **sudo vi /private/etc/hosts**
+	I.	Open Terminal and type **sudo vi /private/etc/hosts**. It will ask you for password, it's your laptop password. 
 	Press **i** in your keypad. This will take you to the insert mode and now you can edit the file.
 
 	Add the following:

@@ -14,7 +14,9 @@ Name | MYPUM
 Description	| Test a PUM image
 Database | Click on Search icon and select a downloaded DPK.  For example. PEOPLESOFT HCM UPDATE IMAGE 9.2.030 - NATIVE OS
 
-![](./images/1.png "")
+![](./images/s2.png "")
+
+![](./images/s3.png "")
 
 2.	On Select Topology page, click on search icon to search for a topology and select the PUM Fulltier topology.
 
@@ -24,26 +26,22 @@ Database | Click on Search icon and select a downloaded DPK.  For example. PEOPL
 
 ![](./images/3.png "")
 
-4.	Expand the Region and Availability Domains section.  Select the Region and Availability Domain in which Cloud Manager instance is not deployed. 
+4.	Expand the Region and Availability Domains section. 
 
-![](./images/4.png "")
+Networking | General Settings
+--------- | ----------------
+1 | Region | us-ashburn-1
+2 | Primary Availability Domain | evQs:US-ASHBURN-AD-3 
+3 | Compartment	| Demo
+4 | Virtual Cloud Network | OCIHOLVCN
 
-Refer to Lab 100 to review tenancy service limits and find the AD which has the required shape available for provisioning. In this exercise, for trial accounts, AD 2 should have the required shapes. 
+![](./images/s4.png "")
 
 Refer to the following for network topology:
 
 ![](./images/7.png "")
 
-
-
-**Region and Availability Domains**
-
-1 | Region | us-ashburn-1
-2 | Primary Availability Domain | evQs:US-ASHBURN-AD-2 **(Select an AD 2, where shapes are available for use)**
-3 | Compartment	| PSFT_Lab
-4 | Virtual Cloud Network | Labnet
-
-5.	Expand each of the sub-sections under Full Tier and PeopleSoft Client and provide inputs. The defaults for many parameters can be changed optionally.  
+5.	Expand each of the sub-sections under Full Tier and PeopleSoft Client and provide inputs. The defaults for many parameters can be changed optionally. For this trial, we will leave it as default.
 
 
 Full Tier | General Settings
