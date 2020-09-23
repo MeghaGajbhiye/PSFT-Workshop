@@ -13,7 +13,7 @@ Time: 50 mins
 
 ![](./images/e2.png "")
 
-Expand Environment Attributes -> Region and Availability Domains -> Credentials
+3. Expand Environment Attributes -> Region and Availability Domains -> Credentials
 
 Give following values to the field
 
@@ -31,22 +31,26 @@ No. | Full Tier | Credentials
 
 Leave the rest as default. You can also expand all sections under Environment Attributes.  
 
-Click Done on the top right to begin the environment creation process. 
+4. Click Done on the top right to begin the environment creation process. 
 
 ![](./images/e4.png "")
 
-Accept the license. 
+5. Accept the license. 
 
 ![](./images/e5.png "")
 
-Refresh the page and click on the arrow button -> Details.
+6. Refresh the page and click on the arrow button -> Details.
 
 ![](./images/e6.png "")
 
-Once environment creation is completed, you can click on arrow button -> Deploy to start provisioning.
+7. Monitor the deployment logs under Dashboard -> Environments -> <Environment> -> Action Menu -> Details -> Logs
 
-![](./images/e9.png "")
+![](./images/e10.png "")
 
-Monitor the deployment logs under Dashboard -> Environments -> <Environment> -> Action Menu -> Details -> Logs
+8. Once environment creation is completed, you can click on arrow button -> Deploy to start provisioning.
 
-![](./images/e7.png "")
+![](./images/e10.png "")
+
+9. Monitor the deployment logs under Dashboard -> Environments -> <Environment> -> Action Menu -> Details -> Logs
+
+![](./images/e10.png "")
