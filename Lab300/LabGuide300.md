@@ -9,33 +9,39 @@ Time: 30 min
 
 1. On the Oracle Cloud Infrastructure console home page, click Create a VM Instance under Quick Action
 
-   ![](./images/vmw.png "") 
+![](./images/vmw.png "") 
 
 2. On the Create Compute Instance page, enter a name for the Windows instance eg. windows-custom-image.
 
-    ![](./images/WNAME.png "") 
+![](./images/WNAME.png "") 
 
 3. Click on **Change Image**. Select Windows Server 2016 Standard, and accept the document.
 
-    ![](./images/shapew.png "") 
+![](./images/shapew.png "") 
 
 4. Click on **Show Shape, Network, Storage Options**. Please select Availability Domain as AD-2. 
 
-    ![](./images/shape3.png "") 
+![](./images/shape3.png "") 
 
 5. Make sure that the shape is **VM.Standard.2.1**. If not, click on **change shape** and select Instance Type as **Virtual Machine**, Shape Series as **Intel Skylake**, and Shape name as **VM.Standard.2.1**. 
 
-    ![](./images/shapeselect.png "") 
+![](./images/shapeselect.png "") 
 
 6. In **configure networking** section, make sure that Virtual Cloud Network Compartment is **Demo**, Virtual Cloud Network is **OCIHOLVCN**, Subnet Compartment is **Demo** and Subnet is **Public Subnet-OCIHOLVCN**.
 
-    ![](./images/nwin.png "") 
+![](./images/nwin.png "") 
 
 7. Click Create.
 
 8. On the Details page, make a note of the Public IP Address, the username, opc and copy Initial Password to your local clipboard.
 
-    ![](./images/wdetail.png "")
+![](./images/wdetail.png "")
+
+9. Click on Public Subnet-OCIHOLVCN from the same windows details page -> Default Security List for OCIHOLVCN -> Add Ingress Rule. Now we will add another ingress rule to open RDP port.
+
+![](./images/rdp.png "")
+
+Click on **Add Ingress Rule**.
 
 ## Part 2. Access the Windows Instance with Remote Desktop Connection
 
