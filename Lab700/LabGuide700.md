@@ -44,8 +44,8 @@ Refer to the following for network topology:
 5.	Expand each of the sub-sections under Full Tier and PeopleSoft Client and provide inputs. The defaults for many parameters can be changed optionally. For this trial, we will leave it as default.
 
 
- |Full Tier | General Settings
- | --------- | ----------------
+ Number | Full Tier | Input
+--------- | --------------- | -------------------
 1 |	PeopleSoft Deployment Path  | /u01/app/oracle/product
 2 |	Database Access Id | SYSADM
 3 |	Database Connect Id | people
