@@ -39,7 +39,24 @@ In this, you sign in to the Oracle Cloud Infrastructure console using your crede
 
 ![](./images/homepage.png "")
 
-## **Step 2:** Creating Compartments
+## Part 2. View Service Limit.
+
+During the workshop, you might face problems related to service limit. 
+Please check if you have enough availability of resource in your Availability Domain or else change the Availability Domain to 1/2/3 as per the resource availbility. 
+
+1. To check the service limit, navigate to the three-line menu on the top left and click on Governance -> Limits, Quotas and Usage.
+
+![](./images/slimit.png "")
+
+2. Click on **Scope** and select AD-1 or AD-2 or AD-3 depending on which availability domain you want to see the service limit. 
+
+![](./images/scope.png "")
+
+3. Scroll down the list and you will see all the resources availabile and usage. For ex, in below case, all my available resources are used.
+
+![](./images/available.png "")
+
+## **Step 3:** Creating Compartments
 
 **Compartments Overview:**
 
@@ -57,7 +74,7 @@ A compartment is a collection of cloud assets, like compute instances, load bala
 
 3.	You have just created a compartment for all of your work in this Test Drive.
 
-## **Step 3:** Managing Users, Groups and Policies to Control Access
+## **Step 4:** Managing Users, Groups and Policies to Control Access
 
 **Security Overview:** 
 
@@ -178,7 +195,7 @@ We'll create a user, a group, and a security policy to understand the concept.
 
     You are now logged in as local user: User01
 
-## **Step 4:** Creating a VCN
+## **Step 5:** Creating a VCN
 
 1.	On the Oracle Cloud Infrastructure Console Home page, under the Quick Actions header for Network, click on **Set up a network with a wizard**.
 
