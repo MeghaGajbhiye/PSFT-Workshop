@@ -88,7 +88,7 @@ Click Next
 
 Continue with the steps in Enter Cloud Manager Instance Values.
 
-## Part 5. Enter Cloud Manager Instance Values and provision PSFT Cloud Manager.
+## Part 5. Enter Cloud Manager Instance Values and provision PSFT Cloud
 
 The Create Stack, Configure Variables page includes a list of the parameters needed to create and configure the Cloud Manager instance.
 
@@ -204,7 +204,7 @@ Scroll at the bottom and make a note of CM\_public\_ip and CM\_http\_url. (Wait 
 
 ## Part 6. Accessing Cloud Manager using SSH
 
-SSH key pair required to access Cloud Manager instance was created in step 6 in Part 1 of Lab 200. 
+SSH key pair required to access Cloud Manager instance was created in Part 1 of Lab 300. 
 
 1.	Launch terminal or Git Bash and navigate to the keys folder. 
 
@@ -230,7 +230,7 @@ $ tail -f /home/opc/bootstrap/CloudManagerStatus.log
 
 2. While Cloud Manager is being installed, review Associated Resources for the list of all resources created by automation.
 
-The deployment automation (Resource Manager Stack) provisions numerous resources in the tenancy.  To find the list of resources that were created, navigate to OCI console -> Resource Manager -> Stacks -> <Stack> -> Apply Job details.  On this page, click Associated Resources under Resources.  
+The deployment automation (Resource Manager Stack) provisions numerous resources in the tenancy.  To find the list of resources that were created, navigate to OCI console -> Resource Manager -> Stacks -> <Stack> Apply Job details.  On this page, click Associated Resources under Resources.  
 
 ![](./images/19.png "")
 
@@ -243,9 +243,9 @@ The deployment automation (Resource Manager Stack) provisions numerous resources
 
 ## Part 8. Access Cloud Manager
 
-1. Launch a browser to access your Cloud Manager PIA URL (CM\_http\_url) –  http://labcm.cm.labnet.oraclevcn.com:8000
+1. Launch a browser to access your Cloud Manager PIA URL (CM\_http\_url) 
 
-2. To login, use the username CLADM and password as Passw0rd.
+2. To login, use the username **CLADM** and password as **Psft1234**.
 
 
 
