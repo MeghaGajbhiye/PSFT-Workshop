@@ -70,7 +70,7 @@ Mac: Click on + sign and select Desktop. Enter the Public IP address. Give Usern
 
 ## Part 3. Create a Generalized Image
 
-1. In the Windows instance VM, open a browser and go to Windows Generalized Image Support Files.
+1. In the Windows instance VM, open a browser and search for Windows Generalized Image Support Files.
 
 ![](./images/gi3.png "")
 
@@ -113,15 +113,19 @@ Scroll down to Downloads and enable the file download.
 
 1. In Compute Console, navigate to the three-line menu on top left and click on Compute -> Instances.
 
-2. Locate the updated Windows instance.
+2. Locate the Windows instance you created and click on it.
+
+![](./images/ci1.png "")
 
 3. Click the Actions icon, and select Create Custom Image.
+
+![](./images/ci2.png "")
 
 4. Select the compartment where you want the custom image to reside.
 
 5. Enter a name, such as custom-win-image.
 
-![](./images/pwin7.png "")
+![](./images/ci3.png "")
 
 6. Click Create Custom Image
 
@@ -129,9 +133,52 @@ Scroll down to Downloads and enable the file download.
 
 8. When the status of the custom image changes to Available, copy the OCID for the image. You use it in the next section.
 
-![](./images/pwin8.png "")
+![](./images/ci4.png "")
 
 **NOTE**: After you create the custom image, you can safely remove the instance used to create the image.
+
+## Part 5. Configuring Ingress Ports for FSS mount. 
+
+1. Click on three-line menu on the top left and navigate to  Networking -> Virtual Cloud Networks -> OCIHOLVCN -> Default Security List for OCIHOLVCN -> Add Ingress Rules. 
+
+2. Add the following ingress rule allowing TCP traffic:
+
+    Source CIDR: 0.0.0.0/0
+    IP Protocol: TCP
+    Source Port Range: All
+    Destination Port Range: 2048-2050 
+    
+Click + Another Ingress Rule to add more rules.
+
+3. Add the following ingress rule allowing UDP traffic:
+
+    Source CIDR: 0.0.0.0/0
+    IP Protocol: UDP
+    Source Port Range: All
+    Destination Port Range: 2048 
+
+Click + Another Ingress Rule to add more rules.
+
+![](./images/ir1.png "")
+
+4. Create a third ingress rule allowing traffic to a Destination Port Range of 111 for the NFS rpcbind utility.
+
+    Source CIDR: 0.1.0.0/0
+    IP Protocol: TCP
+    Source Port Range: All
+    Destination Port Range: 111 
+    
+Click + Another Ingress Rule to add more rules.
+
+5. Create a fourth ingress rule allowing traffic to a Destination Port Range of 111 for the NFS rpcbind utility with UDP
+
+    Source CIDR: 0.0.0.0/0
+    IP Protocol: UDP
+    Source Port Range: 111
+    Destination Port Range: All 
+    When you’re done, click the Add Ingress Rules button.
+
+![](./images/ir2.png "")
 
 ## Part 5. Configuring settings
 
