@@ -143,19 +143,19 @@ Scroll down to Downloads and enable the file download.
 
 2. Add the following ingress rule allowing TCP traffic:
 
-    Source CIDR: 0.0.0.0/0
-    IP Protocol: TCP
-    Source Port Range: All
-    Destination Port Range: 2048-2050 
+    Source CIDR: 0.0.0.0/0  
+    IP Protocol: TCP  
+    Source Port Range: All  
+    Destination Port Range: 2048-2050   
     
 Click + Another Ingress Rule to add more rules.
 
 3. Add the following ingress rule allowing UDP traffic:
 
-    Source CIDR: 0.0.0.0/0
-    IP Protocol: UDP
-    Source Port Range: All
-    Destination Port Range: 2048 
+    Source CIDR: 0.0.0.0/0  
+    IP Protocol: UDP  
+    Source Port Range: All  
+    Destination Port Range: 2048   
 
 Click + Another Ingress Rule to add more rules.
 
@@ -163,20 +163,21 @@ Click + Another Ingress Rule to add more rules.
 
 4. Create a third ingress rule allowing traffic to a Destination Port Range of 111 for the NFS rpcbind utility.
 
-    Source CIDR: 0.1.0.0/0
-    IP Protocol: TCP
-    Source Port Range: All
-    Destination Port Range: 111 
+    Source CIDR: 0.1.0.0/0  
+    IP Protocol: TCP  
+    Source Port Range: All  
+    Destination Port Range: 111  
     
 Click + Another Ingress Rule to add more rules.
 
 5. Create a fourth ingress rule allowing traffic to a Destination Port Range of 111 for the NFS rpcbind utility with UDP
 
-    Source CIDR: 0.0.0.0/0
-    IP Protocol: UDP
-    Source Port Range: 111
-    Destination Port Range: All 
-    When you’re done, click the Add Ingress Rules button.
+    Source CIDR: 0.0.0.0/0  
+    IP Protocol: UDP  
+    Source Port Range: 111  
+    Destination Port Range: All   
+
+When you’re done, click the Add Ingress Rules button.
 
 ![](./images/ir2.png "")
 
