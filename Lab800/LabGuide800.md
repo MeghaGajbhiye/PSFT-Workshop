@@ -7,28 +7,30 @@ Time: 50 mins
 
 1.	Navigate to Dashboard | Environments.  Click Create Environment button. 
 
-2.	Provide a unique environment name. Select the Template that was created in previous section – MYPUM.
-Expand all sections under Environment Attributes and provide all inputs.  
+2.	Provide a unique environment name - **MYPUMENV**. Select the Template that was created in previous section – MYPUM.
+
+Expand Environment Attributes -> Region and Availability Domains -> Credentials
+
+Give following values to the field
+
+No. | Full Tier | Credentials
+--- | --------- | -----------
+1 | Gateway Administrator Password | Psft1234
+2 | Web Profile Password for user PTWEBSERVER | Psft1234
+3 | Database Connect Password | Psft1234
+4 | Weblogic Administrator Password | Psft1234
+5 | Database Administrator Password | Psft1234#
+6 | Database Access Password | Psft1234
+7 | Database Operator Password | Psft1234
+
+Leave the rest as default. You can also expand all sections under Environment Attributes.  
 Use the table given below for quick and default values. Click Done to begin the environment provisioning process. 
 Monitor the deployment logs under Dashboard -> Environments -> <Environment> -> Action Menu -> Details -> Logs
 
 ![](./images/1.png "")
 
 
-No. | Full Tier | Credentials
---- | --------- | -----------
-1 | Database Connect Id | people
-2 | Database Connect Password | Password1234
-3 | Weblogic Administrator Username | system
-4 | Weblogic Administrator Password | Password1234
-5 | Database Administrator Password | Password1234
-6 | Gateway Administrator Username | administrator
-7 | Gateway Administrator Password | Password1234
-8 | Database Operator Id | PS
-9 | Database Operator Password | PS
-10 | Web Profile Password for user PTWEBSERVER | Password1234
-11 | Database Access Id | SYSADM
-12 | Database Access Password | Password1234
+
 
 
 No. | Full Tier | General Settings
