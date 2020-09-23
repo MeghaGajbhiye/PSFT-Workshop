@@ -214,6 +214,18 @@ We'll create a user, a group, and a security policy to understand the concept.
 
 ![](./images/vcndetail.png "")
 
+10. Under Security List, click on **Default Security List for OCIHOLVCN**
+
+![](./images/sl.png "")
+
+11. Click on **Add Ingress Rules** and give following details:
+    SOURCE CIDR: 0.0.0.0/0
+    DESTINATION PORT NUMBER: 8000
+
+![](./images/irdetails.png "")
+
+12. Click on **Add Ingress Rules**
+
 ### Summary
 
 This VCN will contain all of the other assets that you will create during this set of labs. In real-world situations, you would create multiple VCNs based on their need for access (which ports to open) and who can access them

@@ -180,7 +180,7 @@ Scroll at the bottom and make a note of CM\_public\_ip and CM\_http\_url. (Wait 
 
 ![](./images/output.png "")
 
-22.	Windows: Add an entry to C:\Windows\System32\drivers\etc\hosts entry on your laptop/workstation as shown below. Use the hostname value for attribute CM\_http\_url (not the port number). 
+22.	Windows: Add an entry to C:\Windows\System32\drivers\etc\hosts entry on your laptop/workstation as shown below. Use the hostname value for attribute CM\_http\_url (Hostname is everything after **http://** and before **:8000**, in my case it is psftcm.sub09220136550.ociholvcn.oraclevcn.com. Check your CM\_http\_url from above step and modify it as per). 
 
 	I.	Open Windows Search “Notepad”. Right Click on Notepad and open as Administrator.
 

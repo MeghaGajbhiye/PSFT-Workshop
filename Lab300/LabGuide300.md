@@ -19,19 +19,21 @@ Time: 20 min
 
     ![](./images/shapew.png "") 
 
-4. Click on **Show Shape, Network, Storage Options**. Make sure that the shape is **VM.Standard.2.1**. If not, click on **change shape** and select Instance Type as **Virtual Machine**, Shape Series as **Intel Skylake**, and Shape name as **VM.Standard.2.1**. 
+4. Click on **Show Shape, Network, Storage Options**. Please select Availability Domain as AD-2. 
 
-    ![](./images/shape.png "") 
+    ![](./images/shape3.png "") 
+
+5. Make sure that the shape is **VM.Standard.2.1**. If not, click on **change shape** and select Instance Type as **Virtual Machine**, Shape Series as **Intel Skylake**, and Shape name as **VM.Standard.2.1**. 
 
     ![](./images/shapeselect.png "") 
 
-8. In **configure networking** section, make sure that Virtual Cloud Network Compartment is **Demo**, Virtual Cloud Network is **OCIHOLVCN**, Subnet Compartment is **Demo** and Subnet is **Public Subnet-OCIHOLVCN**.
+6. In **configure networking** section, make sure that Virtual Cloud Network Compartment is **Demo**, Virtual Cloud Network is **OCIHOLVCN**, Subnet Compartment is **Demo** and Subnet is **Public Subnet-OCIHOLVCN**.
 
     ![](./images/nwin.png "") 
 
-9. Click Create.
+7. Click Create.
 
-10. On the Details page, make a note of the Public IP Address, the username, opc and copy Initial Password to your local clipboard.
+8. On the Details page, make a note of the Public IP Address, the username, opc and copy Initial Password to your local clipboard.
 
     ![](./images/wdetail.png "")
 
