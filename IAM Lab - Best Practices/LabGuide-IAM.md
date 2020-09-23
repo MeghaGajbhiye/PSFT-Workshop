@@ -210,6 +210,10 @@ We'll create a user, a group, and a security policy to understand the concept.
 
 8.	Once you see that the creation is completed, click on the **View Virtual Cloud Network** button.
 
+9. It will navigate you to the VCN detail page. Click on Public Subnet-OCIHOLVCN.
+
+![](./images/vcndetail.png "")
+
 ### Summary
 
 This VCN will contain all of the other assets that you will create during this set of labs. In real-world situations, you would create multiple VCNs based on their need for access (which ports to open) and who can access them

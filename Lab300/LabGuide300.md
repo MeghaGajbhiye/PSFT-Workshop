@@ -11,35 +11,29 @@ Time: 20 min
 
    ![](./images/vmw.png "") 
 
-2. On the Create Compute Instance page, enter a name for the Windows instance.
+2. On the Create Compute Instance page, enter a name for the Windows instance eg. windows-custom-image.
 
-    ![](./images/provwin.png "") 
+    ![](./images/WNAME.png "") 
 
-3. On the Browse All Images page, select the Platform Images tab.
+3. Click on **Change Image**. Select Windows Server 2016 Standard, and accept the document.
 
-4. Select the Windows Server 2016 Standard image.
+    ![](./images/shapew.png "") 
 
-5. Read the Oracle terms and restrictions, and select the option agreeing to the terms.
+4. Click on **Show Shape, Network, Storage Options**. Make sure that the shape is **VM.Standard.2.1**. If not, click on **change shape** and select Instance Type as **Virtual Machine**, Shape Series as **Intel Skylake**, and Shape name as **VM.Standard.2.1**. 
 
-6. Click Select Image.
+    ![](./images/shape.png "") 
 
-    ![](./images/pwin2.png "") 
+    ![](./images/shapeselect.png "") 
 
-7. On the Create Compute Instance page, select the option Virtual Machine. Select a instance shape such as VM.Standard2.1.
+8. In **configure networking** section, make sure that Virtual Cloud Network Compartment is **Demo**, Virtual Cloud Network is **OCIHOLVCN**, Subnet Compartment is **Demo** and Subnet is **Public Subnet-OCIHOLVCN**.
 
-8. Select a OCIHOLVCN from the Virtual Cloud Network drop-down list, and select Public subnet.
-
-    ![](./images/pwin3.png "") 
+    ![](./images/nwin.png "") 
 
 9. Click Create.
 
-    ![](./images/pwin4.png "")
+10. On the Details page, make a note of the Public IP Address, the username, opc and copy Initial Password to your local clipboard.
 
-10. On the Details page, make a note of the Public IP Address, 198.51.100.22 in this example, and the username, opc.
-
-    ![](./images/pwin5.png "")
-
-11. Click the link to Copy the Initial Password to your local clipboard.
+    ![](./images/wdetail.png "")
 
 ## Part 2. Access the Windows Instance with Remote Desktop Connection
 
@@ -47,7 +41,7 @@ After you create the Windows instance, use Remote Desktop Connection to access i
 
 1. Launch Remote Desktop Connection, for example from the Start menu of a local Microsoft Windows host.
 
-2. In the Computer field, enter the Public IP address, which is 198.51.100.22 in this example, of the Microsoft Windows VM that you noted in the previous section. Enter opc in the User name field.
+2. In the Computer field, enter the Public IP address of the Microsoft Windows VM that you noted in the previous section. Enter opc in the User name field.
 
 ![](./images/pwin6.png "")
 
