@@ -204,9 +204,7 @@ When you’re done, click the Add Ingress Rules button.
 
 ![](./images/3.png "")
 
-7.	Click Create.  This action will create a file server in a few minutes. 
-
-    This will take some time. Please wait until the file server status shows ‘FSS Configured’, and then the system will be ready for downloads. 
+7.	Click Create.  This action will create a file server in a few minutes. Please wait until the file server status shows ‘FSS Configured’, and then the system will be ready for downloads. 
 
 
 
