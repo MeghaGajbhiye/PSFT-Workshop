@@ -137,17 +137,21 @@ We'll create a user, a group, and a security policy to understand the concept.
 
     b) Click **Create User**.
 
-    c) In the New User dialog box, enter the following:
+    c) Select IAM user. 
+
+    ![](./images/UserTypeIAM.png "")    
+
+    d) In the New User dialog box, enter the following:
 
         Name: Enter a unique name. This user should have a unique name in the tenancy.
 
         Description: Enter a description. For example, New oci user.
 
-        Email: Enter your email ID and confirm it. 
+        Email: Enter your email ID and confirm it. Please make sure not to use the same email ID. Email ID has to be unique in the tenancy. If you don't have another email ID, you can leave it blank.
 
     ![](./images/createuser.png "")
 
-    d) Click **Create**.
+    e) Click **Create**.
 
 
 7.	Set a **Temporary Password** for the newly created User
@@ -209,9 +213,7 @@ We'll create a user, a group, and a security policy to understand the concept.
 
 ![](./images/vcn_3.png "")
 
-4.	Keep all the fields as default.
-
-5.	Your screen should look similar to the following:
+4.	Keep all the fields as mentioned in the screenshot.	Your screen should look similar to the following:
 
 ![](./images/vcn_4.png "")
 
