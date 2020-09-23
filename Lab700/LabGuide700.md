@@ -28,8 +28,8 @@ Database | Click on Search icon and select a downloaded DPK.  For example. PEOPL
 
 4.	Expand the Region and Availability Domains section. 
 
-Networking | General Settings
---------- | ----------------
+Number | Resource Type | Input
+--------- | --------------- | -------------------
 1 | Region | us-ashburn-1
 2 | Primary Availability Domain | evQs:US-ASHBURN-AD-3 
 3 | Compartment	| Demo
