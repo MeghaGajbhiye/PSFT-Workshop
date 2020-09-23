@@ -66,7 +66,7 @@ Mac: Click on + sign and select Desktop. Enter the Public IP address. Give Usern
 
 3. Click Yes on the security message, which mentions that the identity of the remote computer cannot be verified.
 
-4. Change the password to a complex password. 
+4. Change the password to **Psft@12345678**. 
 
 ## Part 3. Create a Generalized Image
 
