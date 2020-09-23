@@ -216,7 +216,7 @@ We'll create a user, a group, and a security policy to understand the concept.
 4.	Give vcn name as **OCIHOLVCN**. Make sure the compartment selected is **Demo**. Keep the rest of the fields as default.	
 Your screen should look similar to the following:
 
-![](./images/vcn_d.png "")
+![](./images/vcn_d1.png "")
 
 5.	Press the Next button at the bottom of the screen.
 
