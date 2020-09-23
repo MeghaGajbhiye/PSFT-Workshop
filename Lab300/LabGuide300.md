@@ -37,7 +37,11 @@ Time: 30 min
 
 ![](./images/wdetail.png "")
 
-9. Click on Public Subnet-OCIHOLVCN from the same windows details page -> Default Security List for OCIHOLVCN -> Add Ingress Rule. Now we will add another ingress rule to open RDP port.
+9. Click on Public Subnet-OCIHOLVCN from the same windows details page -> Default Security List for OCIHOLVCN -> Add Ingress Rule. Now we will add another ingress rule to open RDP port as mentioned in the screenshot. 
+
+SOURCE CIDR: 0.0.0.0/0
+
+IP PROTOCOL: RDP (TCP/3389)
 
 ![](./images/rdp.png "")
 
@@ -49,42 +53,65 @@ After you create the Windows instance, use Remote Desktop Connection to access i
 
 1. Launch Remote Desktop Connection, for example from the Start menu of a local Microsoft Windows host.
 
-2. In the Computer field, enter the Public IP address of the Microsoft Windows VM that you noted in the previous section. Enter opc in the User name field.
+2. Windows: In the Computer field, enter the Public IP address of the Microsoft Windows VM that you noted in the previous section. Enter opc in the User name field. 
 
 ![](./images/pwin6.png "")
 
-3. Click Connect.
+Click Connect.
+Enter the default password you noted from the instance details page.
 
-4. Enter the default password you noted from the instance details page.
+Mac: Click on + sign and select Desktop. Enter the Public IP address. Give Username as opc and password that you copied previously.
 
-5. Click Yes on the security message, which mentions that the identity of the remote computer cannot be verified.
+![](./images/gi1.png "")
 
-6. Change the password to a complex password. You will change it again in a later section.
+3. Click Yes on the security message, which mentions that the identity of the remote computer cannot be verified.
+
+4. Change the password to a complex password. 
 
 ## Part 3. Create a Generalized Image
 
 1. In the Windows instance VM, open a browser and go to Windows Generalized Image Support Files.
 
-2. Download the support file that is appropriate for the shape you are using.
+![](./images/gi3.png "")
+
+Go to Internet Settings -> Internet Options -> Security -> Custom Level...
+
+![](./images/gi4.png "")
+
+![](./images/gi5.png "")
+
+Scroll down to Downloads and enable the file download. 
+
+![](./images/gi6.png "")
+
+2. Download the support file that is appropriate for the shape you are using. In our case, it's VM so download the following which says VM X5, X7 instances:
+
+![](./images/gi7.png "")
 
 3. Save the file in the default location.
 
-4. Right-click the file you downloaded, and select Run as Administrator.
+4. Right-click the file you downloaded, and select Run as Administrator. 
 
-5. Extract the files to C:\Windows\Panther. The following files are extracted for all Windows Server versions:
+5. Extract the files to C:\Windows\Panther (see screenshot below). The following files are extracted for all Windows Server versions:
 
     - Generalize.cmd
     - Specialize.cmd
     - unattend.xml
     - Post-Generalize.ps1
 
-6. Right-click Generalize.cmd and select Run as Administrator. The process typically ends the Remote Desktop session. If not, log out of the session.
+![](./images/gi8.png "")
 
-7. Wait a few minutes for the process to complete.
+6. Right-click Generalize.cmd and select Run as Administrator. 
+
+![](./images/gi9.png "")
+
+7. The process typically ends the Remote Desktop session. If not, log out of the session. Wait a few minutes for the process to complete.
+
+![](./images/gi10.png "")
 
 ## Part 4. Create a Custom Image
 
-1. In Compute Console, select Compute, Instances.
+1. In Compute Console, navigate to the three-line menu on top left and click on Compute -> Instances.
 
 2. Locate the updated Windows instance.
 
