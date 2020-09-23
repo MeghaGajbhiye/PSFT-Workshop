@@ -218,11 +218,8 @@ We'll create a user, a group, and a security policy to understand the concept.
 
 ![](./images/sl.png "")
 
-11. Click on **Add Ingress Rules** and give following details:
-'''
-    SOURCE CIDR: 0.0.0.0/0
-    DESTINATION PORT NUMBER: 8000
-'''
+11. Click on **Add Ingress Rules** and give following details: SOURCE CIDR: 0.0.0.0/0, DESTINATION PORT NUMBER: 8000
+
 
 ![](./images/irdetails.png "")
 

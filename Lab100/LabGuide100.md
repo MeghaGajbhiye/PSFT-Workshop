@@ -24,9 +24,22 @@ The standard format is – https://myservices-<account_name>.console.oraclecloud
 
 4. You should shortly get an email with login details.
 
+## Part 2. View Service Limit.
 
+During the workshop, you might face problems related to service limit. 
+Please check if you have enough availability of resource in your Availability Domain or else change the Availability Domain to 1/2/3 as per the availbility. 
 
+1. To check the service limit, navigate to the three-line menu on the top left and click on Governance -> Limits, Quotas and Usage.
 
+![](./images/sl.png "")
+
+2. Click on **Scope** and select AD-1 or AD-2 or AD-3 depending on which availability domain you want to see the service limit. 
+
+![](./images/scope.png "")
+
+3. Scroll down the list and you will see all the resources availabile and usage. For ex, in below case, all my available resources are used.
+
+![](./images/scope.png "")
 
 
 

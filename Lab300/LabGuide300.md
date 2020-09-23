@@ -3,7 +3,7 @@
 ## Introduction
 This lab will guide you how to configure the system settings on Cloud Manager
 
-Time: 20 min
+Time: 30 min
 
 ## Part 1. Create Windows Instance
 
