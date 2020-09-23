@@ -163,7 +163,7 @@ Click + Another Ingress Rule to add more rules.
 
 4. Create a third ingress rule allowing traffic to a Destination Port Range of 111 for the NFS rpcbind utility.
 
-    Source CIDR: 0.1.0.0/0  
+    Source CIDR: 0.0.0.0/0  
     IP Protocol: TCP  
     Source Port Range: All  
     Destination Port Range: 111  
@@ -185,7 +185,7 @@ When you’re done, click the Add Ingress Rules button.
 
 1.	Navigate to **Cloud Manager Dashboard -> Cloud Manager Settings -> Cloud Manager Settings**.
 
-2.	Update **My Oracle Support (MOS) Credentials**.  This is required to download DPKs and PRPs automatically. 
+2.	Update **My Oracle Support (MOS) Credentials**. This credential is the same as the username and password you enter when you access [http://support.oracle.com/](support.oracle.com). Please make sure that you have an account and you can access [http://support.oracle.com/](support.oracle.com). This is required to download DPKs and PRPs automatically. 
 
 ![](./images/1.png "")
 

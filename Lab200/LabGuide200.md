@@ -212,7 +212,7 @@ Below are the steps for both windows (step 1) and Mac (step 2). Make sure you ha
 
 	To quit from the vi editor, press escape, then **:wq** and press enter.
 
-## Part 6. Accessing Cloud Manager using SSH
+## Part 7. Accessing Cloud Manager using SSH
 
 SSH key pair required to access Cloud Manager instance was created in Part 1 of Lab 300. 
 
@@ -228,7 +228,7 @@ SSH key pair required to access Cloud Manager instance was created in Part 1 of 
 $ ssh -i id_rsa opc@129.213.145.213 //Use your IP
 ```
 
-## Part 7. Monitoring Cloud Manager
+## Part 8. Monitoring Cloud Manager
 
 1. SSH into Cloud Manager instance to check status of deployment.  Monitor Cloud Manager bootstrap installation using below command.
 
@@ -251,9 +251,11 @@ The deployment automation (Resource Manager Stack) provisions numerous resources
 		Cloud Manager PIA URL: http://labcm.cm.labnet.oraclevcn.com:8000 
 		Cloud Manager PIA SSL URL: https://labcm.cm.labnet.oraclevcn.com:8443
 
-## Part 8. Access Cloud Manager
+## Part 9. Access Cloud Manager
 
-1. Launch a browser to access your Cloud Manager PIA URL (CM\_http\_url) 
+NOTE: Usually it takes an hour for Cloud Manager to finish the bootstrap script. Till the script is successfully executed and you get the above message, you won't be able to access cloud manager URL. 
+
+1. Launch a browser in your local machine to access your Cloud Manager PIA URL (CM\_http\_url) 
 
 2. To login, use the username **CLADM** and password as **Psft1234**.
 
