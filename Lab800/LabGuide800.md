@@ -49,7 +49,7 @@ Leave the rest as default. You can also expand all sections under Environment At
 
 8. Once environment creation is completed, you can click on arrow button -> Deploy to start provisioning.
 
-![](./images/e10.png "")
+![](./images/e9.png "")
 
 9. Monitor the deployment logs under Dashboard -> Environments -> <Environment> -> Action Menu -> Details -> Logs
 
