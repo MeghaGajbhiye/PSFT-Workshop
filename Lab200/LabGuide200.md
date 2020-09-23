@@ -176,11 +176,15 @@ Terraform Apply job is a long running process.  After it completes, the output f
 
 On the job details page, click on **Logs** under Resources. 
 
-Scroll at the bottom and make a note of CM\_public\_ip and CM\_http\_url. (Wait for a while if you can't see this information)
+Scroll at the bottom and make a **note of CM\_public\_ip and CM\_http\_url**. (Wait for a while if you can't see this information)
 
 ![](./images/output.png "")
 
-22.	Windows: Add an entry to C:\Windows\System32\drivers\etc\hosts entry on your laptop/workstation as shown below. Use the hostname value for attribute CM\_http\_url (Hostname is everything after **http://** and before **:8000**, in my case it is psftcm.sub09220136550.ociholvcn.oraclevcn.com. Check your CM\_http\_url from above step and modify it as per). 
+## Part 6. Set up hosts file in your local machine
+
+Below are the steps for both windows (step 1) and Mac (step 2). Make sure you have admin access in your local machine, if not, please follow Lab 400, Part 1 and Part 2 to create a new windows VM.
+
+1.	Windows: Add an entry to C:\Windows\System32\drivers\etc\hosts entry on your laptop/workstation as shown below. Use the hostname value for attribute CM\_http\_url. (Hostname is everything after **http://** and before **:8000**, in my case it is psftcm.sub09220136550.ociholvcn.oraclevcn.com. Check your CM\_http\_url from above step and modify it as per)
 
 	I.	Open Windows Search “Notepad”. Right Click on Notepad and open as Administrator.
 
@@ -188,19 +192,25 @@ Scroll at the bottom and make a note of CM\_public\_ip and CM\_http\_url. (Wait 
 
 	II.	Go to File -> Open -> C:\Windows\System32\drivers\etc\hosts, and append below entry
 
-	```
-	CM_public_ip  Host of CM_http_url
+	CM_public_ip  Hostname of CM_http_url
 
+	Example: 
+
+	```
 	129.213.145.213  labcm.cm.labnet.oraclevcn.com
 	```
-23.	Mac: Add an entry to /private/etc/hosts entry on your laptop/workstation. Use the hostname value for attribute CM\_http\_url. 
+23.	Mac: Add an entry to /private/etc/hosts entry on your laptop/workstation. Use the hostname value for attribute CM\_http\_url. (Hostname is everything after **http://** and before **:8000**, in my case it is psftcm.sub09220136550.ociholvcn.oraclevcn.com. Check your CM\_http\_url from above step and modify it as per)
 
 	I.	Open Terminal and type **sudo vi /private/etc/hosts**
-	Add following with your CM HTTPS URL
+	Press **i** in your keypad. This will take you to the insert mode and now you can edit the file.
+
+	Add the following:
 	```
-	CM_public_ip  Host of CM_http_url
+	CM_public_ip  Hostname of CM_http_url
 	```
 	![](./images/host.png "")
+
+	To quit from the vi editor, press escape, then **:wq** and press enter.
 
 ## Part 6. Accessing Cloud Manager using SSH
 
