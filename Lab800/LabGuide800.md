@@ -9,13 +9,13 @@ Time: 50 mins
 
 ![](./images/e1.png "")
 
-2.	Provide a unique environment name - **MYPUMENV**. Select the Template that was created in previous section – MYPUM.
+2.	Provide a unique Environment Name - **MYPUMENV**. Select the Template that was created in previous section – **MYPUM**. Click **yes** for **Pause after infra creation**.  
 
 ![](./images/e2.png "")
 
-3. Expand Environment Attributes -> Region and Availability Domains -> Credentials
+3. Expand **Environment Attributes -> Region and Availability Domains -> Credentials**
 
-Give following values to the field
+Give following values to the field.
 
 No. | Full Tier | Credentials
 --- | --------- | -----------
@@ -23,7 +23,7 @@ No. | Full Tier | Credentials
 2 | Web Profile Password for user PTWEBSERVER | Psft1234
 3 | Database Connect Password | Psft1234
 4 | Weblogic Administrator Password | Psft1234
-5 | Database Administrator Password | Psft1234#
+5 | Database Administrator Password | **Psft1234#**
 6 | Database Access Password | Psft1234
 7 | Database Operator Password | Psft1234
 
@@ -31,7 +31,7 @@ No. | Full Tier | Credentials
 
 Leave the rest as default. You can also expand all sections under Environment Attributes.  
 
-4. Click Done on the top right to begin the environment creation process. 
+4. Scroll up and click Done on the top right to begin the environment creation process. 
 
 ![](./images/e4.png "")
 
