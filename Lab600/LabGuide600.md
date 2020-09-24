@@ -7,7 +7,9 @@ Cloud Manager provisions PeopleSoft environments on-demand with just a few click
 2. Create Template
 3. Create Environment
 
-Topology defines the infrastructure layout that will be created on Oracle Cloud by Cloud Manager. 
+Topology defines the infrastructure layout that will be created on Oracle Cloud by Cloud Manager. An administrator defines a template for creating an environment. The topology is encapsulated inside the template. 
+
+Users can select a template, override topologies, change any attributes, if needed and provision PeopleSoft environments on demand. Users are allowed to perform actions on a running environment, such as stop, view details, create new template from it, and so on.
 
 ## Part 1
 
