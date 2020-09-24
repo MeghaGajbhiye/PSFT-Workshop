@@ -14,6 +14,8 @@ Time: 80 min
 
 3. Launch Terminal for Mac or Git Bash for Windows command line and navigate to the folder where the file was downloaded.
 
+If the file was downloaded in Downloads folder, you can type the following command: **cd ~/Downloads**. (If your file was downloaded in a different folder, simply replace downloads with the name of the folder it was downloaded into.)
+
 4. Give permission to the file by typing in command line: **chmod 777 make_keys.sh**
 
 6. For Windows, run the script as **"bash make_keys.sh"**
@@ -35,8 +37,15 @@ Note: These Keys are necessary for you to be able to securely connect into your 
 
 ## Part 2. Setting API keys for User01
 
-1. In a browser, launch the OCI console. Login as User01. After you are succesfully logged in, click on the **profle button on top right**. Click on your user name - User01.
-   (Refer to Lab 200 for details on how to login as User01.)
+1. Copy the contents of api_key.pub key (the one you have created through the script) as follows: 
+- Right click on the api_key.pub and open with a text editor as shown below. 
+
+![](./images/apikeys.png "")
+
+- Copy all the content from the text editor and keep it in your clipboard to paste it in the OCI console.
+
+2. In a browser, launch the OCI console. Login as **User01**. After you are succesfully logged in, click on the **profile button on top right**. Click on your user name - **User01**.
+   (**Refer to Lab 200 for details on how to login as User01.**)
 
 ![](./images/api.png "")
 
@@ -44,7 +53,7 @@ Note: These Keys are necessary for you to be able to securely connect into your 
 
 ![](./images/apisetup.png "")
 
-3. Click on **Paste public keys** and Copy paste the content of **api_key.pub** ( the one you just created). Click on **Add**.  
+3. Click on **Paste public keys** and paste the content of **api_key.pub** (the one you just copied above). Click on **Add**.  
 
 ![](./images/apikeypub.png "")
 
