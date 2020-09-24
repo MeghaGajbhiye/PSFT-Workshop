@@ -51,7 +51,9 @@ Click on **Add Ingress Rule**.
 
 After you create the Windows instance, use Remote Desktop Connection to access it.
 
-1. Launch Remote Desktop Connection, for example from the Start menu of a local Microsoft Windows host.
+1. Launch Remote Desktop Connection, for example from the Start menu of a local machine.
+
+NOTE: If you have not installed Remote Desktop Connection, please do so throught his link: 
 
 2. Windows: In the Computer field, enter the Public IP address of the Microsoft Windows VM that you noted in the previous section. Enter opc in the User name field. 
 
@@ -60,7 +62,7 @@ After you create the Windows instance, use Remote Desktop Connection to access i
 Click Connect.
 Enter the default password you noted from the instance details page.
 
-Mac: Click on + sign and select Desktop. Enter the Public IP address. Give Username as opc and password that you copied previously.
+Mac: Depending on the software, these steps might differ. Click on + sign and select Desktop or Add PC. Enter the Public IP address. Give Username as opc and password that you copied previously.
 
 ![](./images/gi1.png "")
 
