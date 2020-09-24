@@ -246,7 +246,7 @@ DESTINATION PORT NUMBER: 8000
 
 12. Click on **Add Ingress Rules**
 
-### Summary
+### **Summary**
 
 This VCN will contain all of the other assets that you will create during this set of labs. In real-world situations, you would create multiple VCNs based on their need for access (which ports to open) and who can access them
 
