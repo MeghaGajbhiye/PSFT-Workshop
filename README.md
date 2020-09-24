@@ -25,11 +25,11 @@ Lab 800: Create Environment in Peoplesoft
 
 ## Time duration
 
-Review Lab 700 for details on the resources created by deployment automation. This session should take about 90 minutes approximately. 
+Lab 300 should take about 90 minutes approximately for runnign the bootstrp script after provisioning Cloud Manager resources. 
 
 Lab 500, when you subscribe to download channels, time taken for downloads to complete depends on network speed and the number of subscribed download channels. If only one application channel and one PeopleTools channel with only the latest patch is subscribed, then downloads should complete in about 60 to 90 minutes depending on the download speed. 
 
-Lab600, 700, 800, should take you approximately 60 to 75 minutes, you will be able to create a Topology, an Environment Template and provision a new PeopleSoft environment.
+Lab 600, 700, 800, should take you approximately 60 to 75 minutes, you will be able to create a Topology, an Environment Template and provision a new PeopleSoft environment.
 
 
 ## Reviewing Pre-requisistes

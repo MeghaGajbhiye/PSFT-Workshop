@@ -54,3 +54,26 @@ Leave the rest as default. You can also expand all sections under Environment At
 9. Monitor the deployment logs under Dashboard -> Environments -> <Environment> -> Action Menu -> Details -> Logs
 
 ![](./images/e10.png "")
+
+10. After the environment up and running, you can perform a variety of actions on the environment by using the Related Actions button corresponding to each environment. 
+
+![](./images/e11.png "")
+
+The actions can be:
+
+• **Details**: Select this option to view environment details and to perform additional actions on the environment such as performing a health check, applying a PeopleTools patch, viewing logs, and managing PUM connections.
+
+• **Start**: Select this option to start all the instances and then all the domains within them.
+
+• **Stop**: Select this option to stop all domains and shutdown all the instances. In case of database, only compute database instances are shutdown.
+
+• **Delete**: Select this option to remove the environment.
+
+• **Manage Node**: Select this option to scale environment up or down.
+
+• **Clone Environment**: Select this option to clone an existing environment.
+
+• **Refresh**: Select this option to refresh the database or the database, ps app home and ps cust home.  
+This option is only available for DBaaS environments.
+
+• **Backup and Restore**: Select this option to backup or restore an environment.

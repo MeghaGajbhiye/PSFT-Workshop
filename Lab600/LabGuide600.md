@@ -1,7 +1,13 @@
 # Lab 600 : Reviewing and updating a Topology
 
 ## Introduction
-Time: 10 mins
+
+Cloud Manager provisions PeopleSoft environments on-demand with just a few clicks. The entire provisioning process is automated. At the end of provisioning, a ready-to-use environment is available within a short time. The environments can be created by a three step process:
+1. Create Topology
+2. Create Template
+3. Create Environment
+
+Topology defines the infrastructure layout that will be created on Oracle Cloud by Cloud Manager. 
 
 ## Part 1
 
