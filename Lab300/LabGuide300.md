@@ -1,7 +1,7 @@
 # Lab 400 : Configure Cloud Manager Settings
 
 ## Introduction
-This lab will guide you how to configure the system settings on Cloud Manager
+This lab will guide you how to configure the system and infrastructure settings on Cloud Manager
 
 Time: 30 min
 
