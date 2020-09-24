@@ -39,7 +39,7 @@ In this, you sign in to the Oracle Cloud Infrastructure console using your crede
 
 ![](./images/homepage.png "")
 
-## Part 2. View Service Limit.
+## **Part 2:** View Service Limit.
 
 During the workshop, you might face problems related to service limit. 
 Please check if you have enough availability of resource in your Availability Domain or else change the Availability Domain to 1/2/3 as per the resource availbility. 
