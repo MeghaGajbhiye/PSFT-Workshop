@@ -16,7 +16,7 @@ Time: 80 min
 
 If the file was downloaded in Downloads folder, you can type the following command: **cd ~/Downloads**. (If your file was downloaded in a different folder, simply replace downloads with the name of the folder it was downloaded into.)
 
-4. Give permission to the file by typing in command line: **chmod 777 make_keys.sh**
+4. Give permission to the file by typing in command line: **chmod u+rx make_keys.sh**
 
 6. For Windows, run the script as **"bash make_keys.sh"**
 
