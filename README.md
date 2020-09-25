@@ -36,19 +36,20 @@ Lab 600, 700, 800, should take you approximately 60 to 75 minutes, you will be a
 
 1. User already has a tenancy with Administrator user access. 
 
-2. My Oracle Support credentials
+2. My Oracle Support credentials. Please make sure that you can successfully login to https://support.oracle.com. Note down this login credential in a notepad, you will use it later to configure Cloud Manager.
 
 3. User brings their own workstation/laptop to access OCI console, PSFT Cloud Manager and provisioned instances. 
 
 4. User has access to a workstation/laptop with the following installed:
 
-	a. Git Bash for Windows - https://git-scm.com/download/win 
+	a. If you have a windows machine, please download Git Bash for Windows from here: https://git-scm.com/download/win  
 
-	b. Download Windows Remote Desktop Connection.
+	b. User must have admin privileges on their laptop to update the **etc/hosts** file to be able to add URL/IP address for PSFT Cloud Manager. Please let the team know if you can't get this access.
+
+	**NOTE: If you don't have admin privileges in your local machine, please make sure to follow Lab Windows VM Compute Lab during Lab 300 before starting Part 6. You can use the windows compute to follow this Workshop. Please also make sure to install Git Bash in Windows Compute.**
+
+	You will also need to install **Remote Desktop Connection** in your local machine.
 
 	c. A web browser to connect to OCI web console and Cloud Manager PIA – Firefox or Chrome recommended.
 
-	d. User must have admin privileges on their laptop to update the etc/hosts file to be able to add URL/IP address for PSFT Cloud Manager. Please let the team know if you can't get this access.
-
-	NOTE: If you don't have admin privileges in your local machine, please make sure to follow Lab Windows VM Compute Lab after Lab 300 during the workshop. You can use the windows compute to follow this Workshop. Please make sure to install Git Bash and Windows Remote Desktop Connection in Windows Compute.
-
+	
