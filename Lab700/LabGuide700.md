@@ -41,7 +41,7 @@ Refer to the following for network topology:
 
 ![](./images/7.png "")
 
-5.	Expand Full Tier -> General Settings. Make sure to give Database Operator Id as **PS**. Give a database name **MYPUMDB**. The defaults for many parameters can be changed optionally, we will keep it as default.
+5.	Expand Full Tier -> General Settings. Make sure to give Database Operator Id as **PS**. Give a database name **MYPUMDB**. The defaults for many parameters can be changed; optionally, we will keep it as default.
 
 ![](./images/s7.png "")
 
@@ -51,7 +51,7 @@ Refer to the following for network topology:
 
 7. Keep the rest of the field as default.
 
-8.	Click Next to configure zone and role. Set Zone as **Test**. For role, click on Search Criteria and search for **PACL_CAD**. Select the role from search results.
+8.	Click Next to configure zone and role. Set Zone as **Test**. For role, click on Search Criteria and search for **PACL_CAD**. Select the role from **search results**.
 
 ![](./images/s9.png "")
 

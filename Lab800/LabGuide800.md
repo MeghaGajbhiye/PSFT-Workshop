@@ -1,7 +1,7 @@
 # Lab 800 : Creating Environment in PeopleSoft
 
 ## Introduction
-Time: 50 mins
+Time: 90 mins
 
 ## Part 1
 

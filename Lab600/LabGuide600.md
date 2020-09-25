@@ -9,7 +9,7 @@ Cloud Manager provisions PeopleSoft environments on-demand with just a few click
 
 Topology defines the infrastructure layout that will be created on Oracle Cloud by Cloud Manager. An administrator defines a template for creating an environment. The topology is encapsulated inside the template. 
 
-Users can select a template, override topologies, change any attributes, if needed and provision PeopleSoft environments on demand. Users are allowed to perform actions on a running environment, such as stop, view details, create new template from it, and so on.
+Users can select a template, override topologies, change any attributes, if needed, and provision PeopleSoft environments on demand. Users are allowed to perform actions on a running environment, such as stop, view details, create new template from it, and so on.
 
 ## Part 1
 
@@ -19,7 +19,7 @@ Users can select a template, override topologies, change any attributes, if need
 
 2.	Review the nodes and update the Shapes.  Click Full Tier node and select a shape that is available in your AD 2. 
 In this case, select VM.Standard2.1 or VM.Standard2.2. 
-Review the available shapes in your AD as explained in Lab 100.
+Review the available shapes in your AD, as explained in Lab 100.
 
 ![](./images/2.png "")
 
@@ -27,7 +27,7 @@ Review the available shapes in your AD as explained in Lab 100.
 
 ![](./images/3.png "")
 
-4.	When you are ready, Click Save. The topology should now look as shown below.
+4.	When you are ready, click **Save**. The topology should now look as shown below.
 
 ![](./images/4.png "")
 

@@ -10,7 +10,7 @@ Time: Depends upon download speed and number of subscribed channels.  Around 60 
 
 2.	Go to the Unsubscribed tab.
 
-3.	On a download channel of your choice, click on related actions menu and click Subscribe. E.g, HCM_92_Linux.
+3.	On a download channel of your choice, click on the related actions menu and click Subscribe. E.g., HCM_92_Linux.
  Monitor the Logs page to check for progress. 
 
 ![](./images/1.png "")
