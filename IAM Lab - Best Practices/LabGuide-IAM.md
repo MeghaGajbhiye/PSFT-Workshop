@@ -160,15 +160,15 @@ We'll create a user, a group, and a security policy to understand the concept.
 
     b) Click **Create/Reset Password**.
 
-    ![](./images/userdetail.png "")
+    <img src=./images/userdetail.png width=600 height=400 />
 
     c) In the dialog, click **Create/Reset Password**.
 
-    ![](./images/13.png "")
+    <img src=./images/13.png width=600 height=400 />
 
     d) The new one-time password is displayed. Click the **Copy button** and then click Close. Make sure to copy this password to your notepad.
-
-    ![](./images/newpassword.png "")
+    
+    <img src=./images/newpassword.png width=600 height=400 />
 
     e) Scroll down and click on **Add User to Group**.
 
