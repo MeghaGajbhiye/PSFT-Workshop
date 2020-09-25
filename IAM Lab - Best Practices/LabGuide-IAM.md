@@ -64,13 +64,13 @@ A compartment is a collection of cloud assets, like compute instances, load bala
 
 1.	Click on the three-line menu, which is on the top left of the console. Scroll down till the bottom of the menu, click on **Identity -> Compartments**. Click on the blue **Create Compartment** button to create a sub-compartment.
 
-![](./images/compartmentn.png "")
+<img src=./images/compartmentn.png width=600 height=500 />
 
-![](./images/createcompartment.png "")
+<img src=./images/createcompartment.png width=600 height=500 />
 
 2.	Name the compartment **Demo** and provide a short description. Be sure your root compartment is shown as the parent compartment. Press the blue **Create Compartment button** when ready.
 
-![](./images/compartment.png "")
+<img src=./images/compartment.png width=600 height=500 />
 
 3.	You have just created a compartment for all of your work in this Test Drive.
 
