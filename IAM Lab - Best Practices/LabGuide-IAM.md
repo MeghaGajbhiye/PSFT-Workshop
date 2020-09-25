@@ -164,7 +164,7 @@ We'll create a user, a group, and a security policy to understand the concept.
 
     c) In the dialog, click **Create/Reset Password**.
 
-    <img src=./images/13.png width=600 height=200 />
+    <img src=./images/13.png width=600 height=100 />
 
     d) The new one-time password is displayed. Click the **Copy button** and then click Close. Make sure to copy this password to your notepad.
     
