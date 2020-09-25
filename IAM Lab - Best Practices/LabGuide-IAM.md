@@ -1,4 +1,4 @@
-# Lab 200 : Create Identity and Access Management (IAM) Resources.
+# Lab 200: Creating Identity and Access Management (IAM) resources.  
 
 ## Introduction
 
@@ -12,7 +12,7 @@ Oracle Cloud Infrastructure (OCI) Identity and Access Management (IAM) Service l
 
         1. Tenant, User name and Password
         2. URL for the Console: https://oracle.com
-        3. Oracle Cloud Infrastructure supports the latest versions of Google Chrome, Firefox and Internet Explorer 11
+        3. Oracle Cloud Infrastructure supports the latest versions of Google Chrome, Firefox, and Internet Explorer 11
 
 ## **Step 1:** Signing in to the Console
 
@@ -29,7 +29,7 @@ In this, you sign in to the Oracle Cloud Infrastructure console using your crede
 
 ![](./images/2.png "")
 
-4.	Oracle Cloud Infrastructure is integrated with Identity Cloud Services, you will see a screen validating your Identity Provider. Enter your username and password. Click Sign In.
+4.	Oracle Cloud Infrastructure is integrated with Identity Cloud Services. You will see a screen validating your Identity Provider. Enter your username and password. Click Sign In.
 
 ![](./images/signin1.png "")
 
