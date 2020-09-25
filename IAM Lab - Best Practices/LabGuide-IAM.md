@@ -193,9 +193,13 @@ We'll create a user, a group, and a security policy to understand the concept.
     Note: Since this is the first-time sign-in, the user will be prompted to change the temporary password, as shown in the screen capture.
     ```
 
-    e) Set the new password to Psft@1234. Click on **Save New Password**. 
+    e) Set the new password to **Psft@1234**. Click on **Save New Password**. 
 
     ![](./images/17.png "")
+
+
+    <img src=./images/17.png width=600 height=100 />
+
 
     You are now logged in as local user: **User01**
 
