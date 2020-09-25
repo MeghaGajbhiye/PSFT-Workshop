@@ -176,7 +176,7 @@ We'll create a user, a group, and a security policy to understand the concept.
 
     f) Select the group you just created, and click on **Add**.
 
-    <img src=./adduser/17.png width=500 height=400 />
+    <img src=./images/adduser.png width=500 height=400 />
 
     g) Click on **top-right icon button** and **Sign out** of the admin user account.
 
