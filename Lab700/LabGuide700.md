@@ -47,10 +47,6 @@ Refer to the following for network topology:
 
 Click on Subnet Settings and make sure the subnet is cm. 
 
-Full Tier | Subnet Settings
---------- | ---------------
-1 | Subnet For Primary Instance | cm
-
 ![](./images/cm.png "")
 
 Keep the rest of the field as default.
