@@ -198,7 +198,7 @@ We'll create a user, a group, and a security policy to understand the concept.
     ![](./images/17.png "")
 
 
-    <img src=./images/17.png width=600 height=100 />
+    <img src=./images/17.png width=700 height=700 />
 
 
     You are now logged in as local user: **User01**
