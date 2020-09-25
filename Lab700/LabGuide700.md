@@ -45,17 +45,17 @@ Refer to the following for network topology:
 
 ![](./images/s7.png "")
 
-Click on Subnet Settings and select Public Subnet-OCIHOLVCN. 
+Click on Subnet Settings and make sure the subnet is cm. 
 
 Full Tier | Subnet Settings
 --------- | ---------------
-1 | Subnet For Primary Instance | Public Subnet-OCIHOLVCN
+1 | Subnet For Primary Instance | cm
 
-![](./images/s8.png "")
+![](./images/cm.png "")
 
 Keep the rest of the field as default.
 
-6.	Click Next to configure zone and role. Set Zone as **Test**. For role, click on Search Criteria and search for PACL_CAD. Select the role from search results.
+6.	Click Next to configure zone and role. Set Zone as **Test**. For role, click on Search Criteria and search for **PACL_CAD**. Select the role from search results.
 
 ![](./images/s9.png "")
 
