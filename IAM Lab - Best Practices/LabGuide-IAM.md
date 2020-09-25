@@ -100,7 +100,7 @@ We'll create a user, a group, and a security policy to understand the concept.
 
 4.	Your new group is displayed.
 
-![](./images/newgroup.png "")
+   <img src=./images/newgroup.png width=700 height=500 />
 
 5.	Now, let’s create a security policy that gives your group permissions in your assigned Compartment. In this case, we will create a policy that permits users belonging to group **oci-group to provision Peoplesoft Cloud Manager in Compartment Demo**:
 
@@ -181,7 +181,6 @@ We'll create a user, a group, and a security policy to understand the concept.
     g) Click on **top-right icon button** and **Sign out** of the admin user account.
 
     ![](./images/signout.png "")
-
 
     This time, you will sign in using the local credentials box with the user you created. Note that the user you created is not part of the Identity Cloud Services.
 
