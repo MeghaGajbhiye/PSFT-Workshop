@@ -42,9 +42,9 @@ In this, you sign in to the Oracle Cloud Infrastructure console using your crede
 ## **Part 2:** View Service Limit.
 
 During the workshop, you might face problems related to service limit. 
-Please check if you have enough availability of resource in your Availability Domain or else change the Availability Domain to 1/2/3 as per the resource availbility. 
+Please check if you have enough resource availability in your Availability Domain or change the Availability Domain to 1/2/3 as per the resource availability. 
 
-1. To check the service limit, navigate to the three-line menu on the top left and click on Governance -> Limits, Quotas and Usage.
+1. To check the service limit, navigate to the three-line menu on the top left and click on **Governance -> Limits, Quotas, and Usage**.
 
 ![](./images/slimit.png "")
 
@@ -52,7 +52,7 @@ Please check if you have enough availability of resource in your Availability Do
 
 ![](./images/scope.png "")
 
-3. Scroll down the list and you will see all the resources availabile and usage. For ex, in below case, all my available resources are used.
+3. Scroll down the list, and you will see all the resources available and usage. For example, in the below case, all my available resources are used.
 
 ![](./images/available.png "")
 
@@ -60,9 +60,9 @@ Please check if you have enough availability of resource in your Availability Do
 
 **Compartments Overview:**
 
-A compartment is a collection of cloud assets, like compute instances, load balancers, databases, etc. By default, a root compartment was created for you when you created your tenancy (ie when you registered for the trial account). It is possible to create everything in the root compartment, but Oracle recommends that you create sub-compartments to help manage your resources more efficiently.
+A compartment is a collection of cloud assets, like compute instances, load balancers, databases, etc. By default, a root compartment was created for you when you created your tenancy (ie, when you registered for the trial account). It is possible to create everything in the root compartment, but Oracle recommends that you create sub-compartments to help manage your resources more efficiently.
 
-1.	Click on three-line menu which is on the top left of the console. Scroll down till the bottom of the menu, click on **Identity -> Compartments**. Click on the blue **Create Compartment** button to create a sub-compartment.
+1.	Click on the three-line menu, which is on the top left of the console. Scroll down till the bottom of the menu, click on **Identity -> Compartments**. Click on the blue **Create Compartment** button to create a sub-compartment.
 
 ![](./images/compartmentn.png "")
 
@@ -74,11 +74,11 @@ A compartment is a collection of cloud assets, like compute instances, load bala
 
 3.	You have just created a compartment for all of your work in this Test Drive.
 
-## **Step 4:** Managing Users, Groups and Policies to Control Access
+## **Step 4:** Managing Users, Groups, and Policies to Control Access
 
 **Security Overview:** 
 
-A user's permissions to access services comes from the groups to which they belong. The permissions for a group are defined by policies. Policies define what actions members of a group can perform, and in which compartments. Users can access services and perform operations based on the policies set for the groups of which they are members.
+A user's permissions to access services come from the groups to which they belong. Policies define the permissions for a group Policies explain what actions members of a group can perform, and in which compartments. Users can access services and perform operations based on the policies set for the groups.
 
 We'll create a user, a group, and a security policy to understand the concept.
 
@@ -90,9 +90,9 @@ We'll create a user, a group, and a security policy to understand the concept.
 
 3.	In the Create Group dialog box, enter the following:
 
-        1. Name: Enter a unique name for your group such as "oci-group” Note that the group name cannot contain spaces.
+        1. Name: Enter a unique name for your group, such as "oci-group” Note that the group name cannot contain spaces.
 
-        2. Description: Enter a description (for example, “New group for oci users”).
+        2. Description: Enter a description (for example, “New group for OCI users”).
 
         3. Click Submit.
 
@@ -102,7 +102,7 @@ We'll create a user, a group, and a security policy to understand the concept.
 
 ![](./images/newgroup.png "")
 
-5.	Now, let’s create a security policy that gives your group permissions in your assigned compartment. In this case, we will create a policy that gives permission to users belonging to group oci-group to provision Peoplesoft Cloud Manager in Compartment Demo:
+5.	Now, let’s create a security policy that gives your group permissions in your assigned Compartment. In this case, we will create a policy that permits users belonging to group **oci-group to provision Peoplesoft Cloud Manager in Compartment Demo**:
 
     a) Click on the three-line Menu button on the top left. Click on **Identity -> Policies**.
 
@@ -114,7 +114,7 @@ We'll create a user, a group, and a security policy to understand the concept.
 
     c) After you have selected the root compartment, click **Create Policy**.
 
-    d) Enter a unique Name for your policy (For example, "Policy-for-oci-group") Note that the **name can NOT contain spaces**.
+    d) Enter a unique Name for your policy (For example, "**Policy-for-oci-group**"). Note that the **name can NOT contain spaces**.
 
     e) Enter a Description (for example, "Policy for OCI Group").
 
@@ -145,7 +145,7 @@ We'll create a user, a group, and a security policy to understand the concept.
 
         Name: Enter a unique name. This user should have a unique name in the tenancy.
 
-        Description: Enter a description. For example, New oci user.
+        Description: Enter a description - For example, New OCI user.
 
         Email: Enter your email ID and confirm it. Please make sure not to use the same email ID. Email ID has to be unique in the tenancy. If you don't have another email ID, you can leave it blank.
 
@@ -178,12 +178,12 @@ We'll create a user, a group, and a security policy to understand the concept.
 
     ![](./images/adduser.png "")
 
-    g) Click on **top right icon button** and **Sign out** of the admin user account.
+    g) Click on **top-right icon button** and **Sign out** of the admin user account.
 
     ![](./images/signout.png "")
 
 
-    This time, you will sign in using local credentials box with the user you created. Note that the user you created is not part of the Identity Cloud Services.
+    This time, you will sign in using the local credentials box with the user you created. Note that the user you created is not part of the Identity Cloud Services.
 
     d) Enter the username **User01** and password that you copied.
 

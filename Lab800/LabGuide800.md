@@ -43,17 +43,25 @@ Leave the rest as default. You can also expand all sections under Environment At
 
 ![](./images/e6.png "")
 
-7. Monitor the deployment logs under Dashboard -> Environments -> <Environment> -> Action Menu -> Details -> Logs
+7. Monitor the deployment logs under Dashboard -> Environments -> Environment Name -> Action Menu -> Details -> Logs
 
 ![](./images/e10.png "")
+
+You can also go to **Provision Task Status** to see detailed progress status for every step. Click on **Deployment Tasks**. If any step fails, you can change the attribute as per the error and start the process from where it failed.
+
+![](./images/pts.png "")
 
 8. Once environment creation is completed, you can click on arrow button -> Deploy to start provisioning.
 
 ![](./images/e9.png "")
 
-9. Monitor the deployment logs under Dashboard -> Environments -> <Environment> -> Action Menu -> Details -> Logs
+9. Monitor the deployment logs under Dashboard -> Environments -> Environment Name -> Action Menu -> Details -> Logs
 
 ![](./images/e10.png "")
+
+You can also go to **Provision Task Status** to see detailed progress status for every step. Click on **Deployment Tasks**. If any step fails, you can change the attribute as per the error and start the process from where it failed.
+
+![](./images/pts.png "")
 
 10. After the environment up and running, you can perform a variety of actions on the environment by using the Related Actions button corresponding to each environment. 
 
