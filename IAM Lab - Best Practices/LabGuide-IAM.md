@@ -195,9 +195,6 @@ We'll create a user, a group, and a security policy to understand the concept.
 
     e) Set the new password to **Psft@1234**. Click on **Save New Password**. 
 
-    ![](./images/17.png "")
-
-
     <img src=./images/17.png width=700 height=500 />
 
 
