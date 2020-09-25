@@ -27,17 +27,17 @@ In this, you sign in to the Oracle Cloud Infrastructure console using your crede
 
 3.	Enter the name of your tenancy (aka your account name, not your user name), then click on the Next button.
 
-![](./images/2.png "")
+<img src=./images/2.png width=600 height=500 />
 
 4.	Oracle Cloud Infrastructure is integrated with Identity Cloud Services. You will see a screen validating your Identity Provider. Enter your username and password. Click Sign In.
 
-![](./images/signin1.png "")
+<img src=./images/signin1.png width=600 height=500 />
 
-![](./images/3.png "")
+<img src=./images/3.png width=600 height=500 />
 
 5.	When you sign in to the Console, the dashboard is displayed.
 
-![](./images/homepage.png "")
+<img src=./images/homepage.png width=800 height=700 />
 
 ## **Part 2:** View Service Limit.
 
