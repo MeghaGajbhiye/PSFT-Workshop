@@ -7,21 +7,21 @@ The lab is divided into the following sections:
 
 ## Overview of Labs
 
-Lab 100: Setup Oracle Cloud Infrastructure.
+Lab 100: Setup Oracle Cloud Infrastructure.  
 
-Lab 200: Creating Identity and Access Management (IAM) resources.
+Lab 200: Creating Identity and Access Management (IAM) resources.  
 
-Lab 300: Provisioning Peoplesoft Cloud Manager using Marketplace.
+Lab 300: Provisioning Peoplesoft Cloud Manager using Marketplace.  
 
-Lab 400: Configuring Cloud Manager Settings 
+Lab 400: Configuring Cloud Manager Settings.  
 
-Lab 500: Subscribing to PeopleSoft Download Channels 
+Lab 500: Subscribing to PeopleSoft Download Channels.   
 
-Lab 600: Reviewing and Updating a Topology
+Lab 600: Reviewing and Updating a Topology.  
 
-Lab 700: Creating a new Environment template
+Lab 700: Creating a new Environment template.  
 
-Lab 800: Creating Environment in Peoplesoft
+Lab 800: Creating Environment in Peoplesoft.  
 
 ## Time duration
 
