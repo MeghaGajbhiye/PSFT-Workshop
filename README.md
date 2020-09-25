@@ -48,7 +48,7 @@ Lab 600, 700, 800, should take you approximately 60 to 75 minutes, you will be a
 
 	**NOTE: If you don't have admin privileges in your local machine, please make sure to follow Lab Windows VM Compute Lab during Lab 300 before starting Part 6. You can use the windows compute to follow this Workshop. Please also make sure to install Git Bash in Windows Compute.**
 
-	You will also need to install **Remote Desktop Connection** in your local machine.
+	You will also need to install **Remote Desktop Connection** in your local machine from this [link](https://www.microsoft.com/en-us/p/microsoft-remote-desktop/9wzdncrfj3ps).
 
 	c. A web browser to connect to OCI web console and Cloud Manager PIA – Firefox or Chrome recommended.
 

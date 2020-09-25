@@ -52,7 +52,7 @@ After you create the Windows instance, use Remote Desktop Connection to access i
 
 1. Launch Remote Desktop Connection, for example from the Start menu of a local machine.
 
-NOTE: If you have not installed Remote Desktop Connection, please do so throught his link: 
+NOTE: If you have not installed Remote Desktop Connection, please do so throught this [link](https://www.microsoft.com/en-us/p/microsoft-remote-desktop/9wzdncrfj3ps)
 
 2. Windows: In the Computer field, enter the Public IP address of the Microsoft Windows VM that you noted in the previous section. Enter opc in the User name field. 
 
