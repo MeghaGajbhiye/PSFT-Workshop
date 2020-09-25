@@ -189,7 +189,8 @@ Scroll at the bottom and make a **note of CM\_public\_ip and CM\_http\_url**. (W
 
 ![](./images/output.png "")
 
-NOTE: If you don't have admin access in your laptop, please follow ![](./Windows VM Compute/WindowsLab.md "")
+NOTE: If you don't have admin access in your laptop, please follow 
+[Windows VM Compute Lab](WindowsLab.md)
 
 ## Part 6. Set up hosts file in your local machine
 
