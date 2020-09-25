@@ -11,17 +11,17 @@
             "filename": "./Lab100/LabGuide100.md"
         },
         {
-            "title": "Lab 200: Create IAM resources",
+            "title": "Lab 200: Creating IAM resources",
             "publisheddate": "09/21/2020",
             "filename": "./IAM Lab - Best Practices/LabGuide-IAM.md"
         },
         {
-            "title": "Lab 300: Provision Peoplesoft Cloud Manager from Marketplace",
+            "title": "Lab 300: Provisioning Peoplesoft Cloud Manager from Marketplace",
             "publisheddate": "09/21/2020",
             "filename": "./Lab200/LabGuide200.md"
         },
         {
-            "title": "Lab 400: Configure Cloud Manager Settings",
+            "title": "Lab 400: Configuring Cloud Manager Settings",
             "publisheddate": "09/21/2020",
             "filename": "./Lab300/LabGuide300.md"
         },
@@ -48,7 +48,7 @@
             "filename": "./Lab800/LabGuide800.md"
         },
         {
-            "title": "Additional Lab: Provision Environments with Windows Clients",
+            "title": "Additional Lab: Provisioning Environments with Windows Clients",
             "publisheddate": "09/21/2020",
             "filename": "./Additional Lab/AdditionalLab.md"
         }

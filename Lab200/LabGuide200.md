@@ -189,6 +189,8 @@ Scroll at the bottom and make a **note of CM\_public\_ip and CM\_http\_url**. (W
 
 ![](./images/output.png "")
 
+NOTE: If you don't have admin access in your laptop, please follow [./Windows VM Compute/WindowsLab.md](./Windows VM Compute/WindowsLab.md)
+
 ## Part 6. Set up hosts file in your local machine
 
 Below are the steps for both windows (step 1) and Mac (step 2). Make sure you have admin access in your local machine, if not, please follow Lab 400, Part 1 and Part 2 to create a new windows VM.

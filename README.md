@@ -50,6 +50,5 @@ Lab 600, 700, 800, should take you approximately 60 to 75 minutes, you will be a
 
 	d. User must have admin privileges on their laptop to update the etc/hosts file to be able to add URL/IP address for PSFT Cloud Manager. Please let the team know if you can't get this access.
 
-	NOTE: If you don't have admin privileges in your local machine, please follow Lab 400, "Part 1. Create Windows Instance" and "Part 2. Access the Windows Instance with Remote Desktop Connection". You can use the windows compute to follow this Workshop. Please make sure to install Git Bash and Windows Remote Desktop Connection in Windows Compute.
-
+	NOTE: If you don't have admin privileges in your local machine, please make sure to follow Lab Windows VM Compute Lab after Lab 300 during the workshop. You can use the windows compute to follow this Workshop. Please make sure to install Git Bash and Windows Remote Desktop Connection in Windows Compute.
 
