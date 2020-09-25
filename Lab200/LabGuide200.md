@@ -216,7 +216,7 @@ Below are the steps for both windows (step 1) and Mac (step 2). Make sure you ha
 	I.	Open Terminal and type **sudo vi /private/etc/hosts**. It will ask you for password, it's your laptop password. 
 	Press **i** in your keypad. This will take you to the insert mode and now you can edit the file.
 
-	Add the following:
+	If you already have contents in the file, append the following at the end of the file:
 	```
 	CM_public_ip  Hostname of CM_http_url
 	```

@@ -14,3 +14,7 @@ Time: Depends upon download speed and number of subscribed channels.  Around 60 
  Monitor the Logs page to check for progress. 
 
 ![](./images/1.png "")
+
+4. Go to subscribed tab and you can now see HCM_92_Linux progress status. This takes 1+ hour to complete. Make sure you refresh the page to check the current progress. Proceed to next Lab only when you see a green check as the status as shown in the picture.
+
+![](./images/s.png "")
