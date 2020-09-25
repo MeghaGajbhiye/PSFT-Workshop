@@ -25,14 +25,14 @@ Lab 800: Creating Environment in Peoplesoft.
 
 ## Time duration
 
-Lab 100 - 10 mins
-Lab 200 - 20 mins
-Lab 300 - 30 mins configuration + 1 hour waiting
-Lab 400 - 10 mins
-Lab 500 - 5 mins configuration + maximum 3 hours waiting
-Lab 600 - 5 mins
-Lab 700 - 10 mins
-Lab 800 - 15 mins configuration + 1.5 hours waiting
+Lab 100 - 10 mins   
+Lab 200 - 20 mins   
+Lab 300 - 30 mins configuration + 1 hour waiting   
+Lab 400 - 10 mins   
+Lab 500 - 5 mins configuration + maximum 3 hours waiting   
+Lab 600 - 5 mins   
+Lab 700 - 10 mins   
+Lab 800 - 15 mins configuration + 1.5 hours waiting   
 
 
 ## Reviewing Pre-requisistes
