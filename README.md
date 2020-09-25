@@ -9,27 +9,30 @@ The lab is divided into the following sections:
 
 Lab 100: Setup Oracle Cloud Infrastructure.
 
-Lab 200: Create Identity and Access Management (IAM) resources.
+Lab 200: Creating Identity and Access Management (IAM) resources.
 
-Lab 300: Provision Peoplesoft Cloud Manager using Marketplace.
+Lab 300: Provisioning Peoplesoft Cloud Manager using Marketplace.
 
-Lab 400: Configure Cloud Manager Settings 
+Lab 400: Configuring Cloud Manager Settings 
 
-Lab 500: Subscribe to PeopleSoft Download Channels 
+Lab 500: Subscribing to PeopleSoft Download Channels 
 
-Lab 600: Review and Update a Topology
+Lab 600: Reviewing and Updating a Topology
 
-Lab 700: Create a new Environment template
+Lab 700: Creating a new Environment template
 
-Lab 800: Create Environment in Peoplesoft
+Lab 800: Creating Environment in Peoplesoft
 
 ## Time duration
 
-Lab 300 should take about 90 minutes approximately for runnign the bootstrp script after provisioning Cloud Manager resources. 
-
-Lab 500, when you subscribe to download channels, time taken for downloads to complete depends on network speed and the number of subscribed download channels. If only one application channel and one PeopleTools channel with only the latest patch is subscribed, then downloads should complete in about 60 to 90 minutes depending on the download speed. 
-
-Lab 600, 700, 800, should take you approximately 60 to 75 minutes, you will be able to create a Topology, an Environment Template and provision a new PeopleSoft environment.
+Lab 100 - 10 mins
+Lab 200 - 20 mins
+Lab 300 - 30 mins configuration + 1 hour waiting
+Lab 400 - 10 mins
+Lab 500 - 5 mins configuration + maximum 3 hours waiting
+Lab 600 - 5 mins
+Lab 700 - 10 mins
+Lab 800 - 15 mins configuration + 1.5 hours waiting
 
 
 ## Reviewing Pre-requisistes
