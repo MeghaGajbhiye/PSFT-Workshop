@@ -197,60 +197,7 @@ We'll create a user, a group, and a security policy to understand the concept.
 
     ![](./images/17.png "")
 
-    You are now logged in as local user: User01
-
-## **Step 5:** Creating a VCN
-
-1.	On the Oracle Cloud Infrastructure Console Home page, under the Quick Actions header for Network, click on **Set up a network with a wizard**.
-
-[](./images/vcnw.png "")
-
-2. Scroll to the bottom left, and select the compartment "Demo"
-
-![](./images/vcn_2.png "")
-
-3.	Select VCN with Internet Connectivity, and then click on **Start VCN Wizard**.
-
-![](./images/vcn_3.png "")
-
-4.	Give vcn name as **OCIHOLVCN**. Make sure the compartment selected is **Demo**. Keep the rest of the fields as default.	
-Your screen should look similar to the following:
-
-![](./images/vcn_d1.png "")
-
-5.	Press the Next button at the bottom of the screen.
-
-6.	Review your settings to be sure they are correct. 
-
-![](./images/vcn_6.png "")
-
-7.	Press the **Create** button to create the VCN. It will take a moment to create the VCN and a progress screen will keep you apprised of the workflow.
-
-![](./images/vcn_7.png "")
-
-8.	Once you see that the creation is completed, click on the **View Virtual Cloud Network** button.
-
-9. It will navigate you to the VCN detail page. Click on Public Subnet-OCIHOLVCN.
-
-![](./images/vcndetail.png "")
-
-10. Under Security Lists, click on **Default Security List for OCIHOLVCN**
-
-![](./images/sl.png "")
-
-11. Click on **Add Ingress Rules** and give following details:  
-SOURCE CIDR: 0.0.0.0/0,   
-DESTINATION PORT NUMBER: 8000
-
-![](./images/irdetails.png "")
-
-12. Click on **Add Ingress Rules**
-
-### **Summary**
-
-This VCN will contain all of the other assets that you will create during this set of labs. In real-world situations, you would create multiple VCNs based on their need for access (which ports to open) and who can access them
-
-
+    You are now logged in as local user: **User01**
 
 
 

@@ -140,17 +140,17 @@ DOMAIN CONNECT PASSWORD | Psft1234
 10. In the Networking section, enter a host name for the Cloud Manager instance.
 This name will be used as part of the URL you use to access Cloud Manager in a browser.
 
-11. Clear the option Create Network Resources.
+11. Make sure the option **Create Network Resources** is selected.
 
-12. From the Network Compartment drop-down list, select **Demo**.
+12. Give **Network Name** as **OCIHOLVCN**
 
-13. From the Existing Network drop-down list, select **OCIHOLVCN**.
+13. Clear the option **Create Private Subnets**
 
-14. From the Existing Subnet for Cloud Manager drop-down list, select **Public Subnet-OCIHOLVCN (Regional)**
+14. Clear the option **Create Subnets for Peoplesoft Components**
 
 15. Clear the option for **Create a Jump Host**
 
-![](./images/networkvalues.png "")
+![](./images/vcndetail.png "")
 
 16. Click Next. Review the configuration variables, and then click Create.  
 
@@ -196,7 +196,7 @@ NOTE: If you don't have admin access in your laptop, please follow
 
 Below are the steps for both windows (step 1) and Mac (step 2). Make sure you have admin access in your local machine, if not, please follow Lab 400, Part 1 and Part 2 to create a new windows VM.
 
-1.	Windows: Add an entry to C:\Windows\System32\drivers\etc\hosts entry on your laptop/workstation as shown below. Use the hostname value for attribute CM\_http\_url. (Hostname is everything after **http://** and before **:8000**, in my case it is psftcm.sub09220136550.ociholvcn.oraclevcn.com. Check your CM\_http\_url from above step and modify it as per)
+1.	Windows: Add an entry to C:\Windows\System32\drivers\etc\hosts entry on your laptop/workstation as shown below. Use the hostname value for attribute CM\_http\_url. (Hostname is everything after **http://** and before **:8000**, in my case it is **psftcm.sub09220136550.ociholvcn.oraclevcn.com**. Check your CM\_http\_url from above step and modify it as per)
 
 	I.	Open Windows Search “Notepad”. Right Click on Notepad and open as Administrator.
 
