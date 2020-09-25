@@ -45,13 +45,13 @@ Refer to the following for network topology:
 
 ![](./images/s7.png "")
 
-Click on Subnet Settings and make sure the subnet is cm. 
+6. Click on Subnet Settings and make sure the subnet is cm. 
 
 ![](./images/cm.png "")
 
-Keep the rest of the field as default.
+7. Keep the rest of the field as default.
 
-6.	Click Next to configure zone and role. Set Zone as **Test**. For role, click on Search Criteria and search for **PACL_CAD**. Select the role from search results.
+8.	Click Next to configure zone and role. Set Zone as **Test**. For role, click on Search Criteria and search for **PACL_CAD**. Select the role from search results.
 
 ![](./images/s9.png "")
 
@@ -59,7 +59,7 @@ Your screen should look like:
 
 ![](./images/5.png "")
 
-7.	Click Next.  Review the page and click Submit to save the template. 
+9.	Click Next.  Review the page and click Submit to save the template. 
 
 ![](./images/s10.png "")
 
