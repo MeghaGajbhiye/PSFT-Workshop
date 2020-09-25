@@ -46,7 +46,7 @@ Please check if you have enough resource availability in your Availability Domai
 
 1. To check the service limit, navigate to the three-line menu on the top left and click on **Governance -> Limits, Quotas, and Usage**.
 
-![](./images/slimit.png "")
+   <img src=./images/slimit.png width=800 height=700 />
 
 2. Click on **Scope** and select AD-1 or AD-2 or AD-3 depending on which availability domain you want to see the service limit. 
 
