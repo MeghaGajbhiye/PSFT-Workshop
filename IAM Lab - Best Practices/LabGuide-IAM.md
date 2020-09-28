@@ -14,9 +14,9 @@ Oracle Cloud Infrastructure (OCI) Identity and Access Management (IAM) Service l
         2. URL for the Console: https://oracle.com
         3. Oracle Cloud Infrastructure supports the latest versions of Google Chrome, Firefox, and Internet Explorer 11
 
-## **Step 1:** Signing in to the Console
+## **Part 1:** Signing in to the Console
 
-Console Overview
+**Console Overview**  
 In this, you sign in to the Oracle Cloud Infrastructure console using your credentials.
 
 1.	Open a supported browser and go to the Console URL: https://oracle.com.
@@ -29,7 +29,7 @@ In this, you sign in to the Oracle Cloud Infrastructure console using your crede
 
 <img src=./images/2.png width=600 height=500 />
 
-4.	Oracle Cloud Infrastructure is integrated with Identity Cloud Services. You will see a screen validating your Identity Provider. Enter your username and password. Click Sign In.
+4.	Oracle Cloud Infrastructure is integrated with Identity Cloud Services. You will see a screen validating your Identity Provider. Click **Continue**. Enter your username and password and click **Sign In**. 
 
 <img src=./images/signin1.png width=600 height=500 />
 
@@ -56,7 +56,7 @@ Please check if you have enough resource availability in your Availability Domai
 
 ![](./images/available.png "")
 
-## **Step 3:** Creating Compartments
+## **Part 3:** Creating Compartments
 
 **Compartments Overview:**
 
@@ -184,7 +184,7 @@ We'll create a user, a group, and a security policy to understand the concept.
 
     This time, you will sign in using the local credentials box with the user you created. Note that the user you created is not part of the Identity Cloud Services.
 
-    d) Enter the username **User01** and password that you copied.
+    h) Enter the username **User01** and password that you copied.
 
     ![](./images/signin.png "")
 
@@ -192,7 +192,7 @@ We'll create a user, a group, and a security policy to understand the concept.
     Note: Since this is the first-time sign-in, the user will be prompted to change the temporary password, as shown in the screen capture.
     ```
 
-    e) Set the new password to **Psft@1234**. Click on **Save New Password**. 
+    i) Set the new password to **Psft@1234**. Click on **Save New Password**. 
 
     <img src=./images/17.png width=700 height=500 />
 

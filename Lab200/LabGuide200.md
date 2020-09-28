@@ -14,7 +14,7 @@ Time: 80 min
 
 3. Launch Terminal for Mac or Git Bash for Windows command line and navigate to the folder where the file was downloaded.
 
-If the file was downloaded in the Downloads folder, you can type the following command: **cd ~/Downloads**. (If your file was downloaded in a different folder,replace downloads with the name of the folder it was downloaded into.)
+If the file was downloaded in the Downloads folder, you can type the following command: **cd ~/Downloads**. (If your file was downloaded in a different folder, replace downloads with the name of the folder it was downloaded into.)
 
 4. Give permission to the file by typing in the command line: **chmod u+rx make_keys.sh**
 
