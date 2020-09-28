@@ -26,9 +26,9 @@ NOTE: Below section is only for those who doesn't have Admin access in their loc
 
 ![](./images/shapeselect.png "") 
 
-6. In **configure networking** section, make sure that Virtual Cloud Network Compartment is **Demo**, Virtual Cloud Network is **OCIHOLVCN**, Subnet Compartment is **Demo** and Subnet is **Public Subnet-OCIHOLVCN**.
+6. In **configure networking** section, make sure that Virtual Cloud Network Compartment is **Demo**, Virtual Cloud Network is **OCIHOLVCN**, Subnet Compartment is **Demo** and Subnet is **cm (Regional)**.
 
-![](./images/nwin.png "") 
+![](./images/vm.png "") 
 
 7. Click Create.
 
