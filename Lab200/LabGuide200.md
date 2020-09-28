@@ -44,7 +44,7 @@ Note: These Keys are necessary for you to be able to securely connect into your 
 
 - Copy all the content from the text editor and keep it in your clipboard to paste it in the OCI console.
 
-2. In a browser, launch the OCI console. Login as **User01**. After you are succesfully logged in, click on the **profile button on top right**. Click on your user name - **User01**.
+2. In a browser, launch the OCI console. Login as **User01**. After you are successfully logged in, click on the **profile button on top right**. Click on your user name - **User01**.
    (**Refer to Lab 200 for details on how to login as User01.**)
 
 ![](./images/api.png "")
@@ -83,9 +83,9 @@ To obtain the PeopleSoft Cloud Manager stack:
 
 ![](./images/searchpsft.png "")
 
-3. On the Overview page for the PeopleSoft Cloud Manager stack, select the compartment to install the instance.
-Review the Oracle terms, and then select the option indicating that you have reviewed and understand the conditions.
-Click Launch Stack. 
+3. On the Overview page for the PeopleSoft Cloud Manager stack, select the **compartment to install the instance**.
+Review the **Oracle terms**, and then select the option indicating that you have reviewed and understand the conditions.
+Click **Launch Stack**. 
 
 ![](./images/launch.png "")
 

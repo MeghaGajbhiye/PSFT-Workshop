@@ -51,6 +51,11 @@
             "title": "Additional Lab: Provisioning Environments with Windows Clients",
             "publisheddate": "09/21/2020",
             "filename": "./Additional Lab/AdditionalLab.md"
+        },
+        {
+            "title": "Windows Compute Instance",
+            "publisheddate": "09/21/2020",
+            "filename": "./Lab200/WindowsVMCompute/WindowsLab.md"
         }
 
      ]
