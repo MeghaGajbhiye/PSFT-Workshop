@@ -192,11 +192,11 @@ Scroll at the bottom and make a **note of CM\_public\_ip and CM\_http\_url**. (W
 NOTE: If you don't have admin access in your laptop, before proceeding with Part 6, please follow 
 Lab: Windows Compute Instance (This is after Additional Labs, after lab 800).
 
+![](./images/lab.png "")
+
 ## Part 6. Set up hosts file in your local machine
 
-Below are the steps for both windows (step 1) and Mac (step 2). Make sure you have admin access in your local machine. If not, please follow the lab Windows Conpute Instance.
-
-![](./images/lab.png "")
+Below are the steps for both windows (step 1) and Mac (step 2). Make sure you have admin access in your local machine. If not, please follow the lab Windows Conpute Instance (See above screenshot). 
 
 1.	Windows: Add an entry to C:\Windows\System32\drivers\etc\hosts entry on your laptop/workstation as shown below. Use the hostname value for attribute CM\_http\_url. (Hostname is everything after **http://** and before **:8000**, in my case it is **psftcm.sub09220136550.ociholvcn.oraclevcn.com**. Check your CM\_http\_url from above step and modify it as per)
 
