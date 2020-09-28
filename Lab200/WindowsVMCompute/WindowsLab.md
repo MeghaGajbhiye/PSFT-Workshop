@@ -36,16 +36,6 @@ NOTE: Below section is only for those who doesn't have Admin access in their loc
 
 ![](./images/wdetail.png "")
 
-9. Click on Public Subnet-OCIHOLVCN from the same windows details page -> Default Security List for OCIHOLVCN -> Add Ingress Rule. Now we will add another ingress rule to open RDP port as mentioned in the screenshot. 
-
-SOURCE CIDR: 0.0.0.0/0
-
-IP PROTOCOL: RDP (TCP/3389)
-
-![](./images/rdp.png "")
-
-Click on **Add Ingress Rule**.
-
 ## Part 2. Access the Windows Instance with Remote Desktop Connection
 
 After you create the Windows instance, use Remote Desktop Connection to access it.
@@ -54,14 +44,14 @@ After you create the Windows instance, use Remote Desktop Connection to access i
 
 NOTE: If you have not installed Remote Desktop Connection, please do so throught this [link](https://www.microsoft.com/en-us/p/microsoft-remote-desktop/9wzdncrfj3ps)
 
-2. Windows: In the Computer field, enter the Public IP address of the Microsoft Windows VM that you noted in the previous section. Enter opc in the User name field. 
+2. **Steps for Windows machine**: In the Computer field, enter the Public IP address of the Microsoft Windows VM that you noted in the previous section. Enter opc in the User name field. 
 
 ![](./images/pwin6.png "")
 
 Click Connect.
 Enter the default password you noted from the instance details page.
 
-Mac: Depending on the software, these steps might differ. Click on + sign and select Desktop or Add PC. Enter the Public IP address. Give Username as opc and password that you copied previously.
+**Steps for Mac machine**: Depending on the software, these steps might differ. Click on + sign and select Desktop or Add PC. Enter the Public IP address. Give Username as opc and password that you copied previously.
 
 ![](./images/gi1.png "")
 
