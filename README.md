@@ -1,41 +1,41 @@
 # PeopleSoft Migration to Oracle Cloud Infrastructure (OCI)
 
 ## Introduction
-In this hands-on lab, the users are provided with step-by-step instructions on setting up a user group, creating and adding users to a group, and creating a compartment and respective policies in the Oracle Cloud Infrastructure (OCI). Subsequently, this guide instructs how to install the Cloud Manager 11 using Marketplace. The final section provides the steps to provision a PeopleSoft Environment followed by some simple hands-on exercises for you to get familiar with the system.
+In this hands-on lab, the users are provided with step-by-step instructions on setting up a user group, creating and adding users to a group, and creating a compartment and respective policies in the **Oracle Cloud Infrastructure (OCI)**. Subsequently, this guide instructs how to install the Cloud Manager 11 using Marketplace. The final section provides the steps to provision a PeopleSoft Environment followed by some simple hands-on exercises for you to get familiar with the system.
 
 The lab is divided into the following sections:
 
 ## Overview of Labs
 
-Lab 100: Setting up Oracle Cloud Infrastructure.  
+**Lab 100**: Setting up Oracle Cloud Infrastructure.  
 
-Lab 200: Creating Identity and Access Management (IAM) resources.  
+**Lab 200**: Creating Identity and Access Management (IAM) resources.  
 
-Lab 300: Provisioning the Peoplesoft Cloud Manager using Marketplace.  
+**Lab 300**: Provisioning the Peoplesoft Cloud Manager using Marketplace.  
 
-Lab 400: Configuring Cloud Manager Settings.  
+**Lab 400**: Configuring Cloud Manager Settings.  
 
-Lab 500: Subscribing to PeopleSoft Download Channels.   
+**Lab 500**: Subscribing to PeopleSoft Download Channels.   
 
-Lab 600: Reviewing and Updating a Topology.  
+**Lab 600**: Reviewing and Updating a Topology.  
 
-Lab 700: Creating a new Environment template.  
+**Lab 700**: Creating a new Environment template.  
 
-Lab 800: Creating Environment in Peoplesoft.  
+**Lab 800**: Creating Environment in Peoplesoft.  
 
 ## Time duration
 
-Lab 100 - 10 mins   
-Lab 200 - 20 mins   
-Lab 300 - 30 mins configuration + 1 hour waiting   
-Lab 400 - 10 mins   
-Lab 500 - 5 mins configuration + maximum 3 hours waiting   
-Lab 600 - 5 mins   
-Lab 700 - 10 mins   
-Lab 800 - 15 mins configuration + 1.5 hours waiting   
+**Lab 100** - 10 mins   
+**Lab 200** - 20 mins   
+**Lab 300** - 30 mins configuration + 1 hour waiting   
+**Lab 400** - 10 mins   
+**Lab 500** - 5 mins configuration + maximum 3 hours waiting   
+**Lab 600** - 5 mins   
+**Lab 700** - 10 mins   
+**Lab 800** - 15 mins configuration + 1.5 hours waiting   
 
 
-## Reviewing Pre-requisistes
+## Reviewing Prerequisite
 
 1. User already has a tenancy with Administrator user access. 
 
