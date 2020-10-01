@@ -1,4 +1,4 @@
-# Lab 400 : Configure Cloud Manager Settings
+# Lab 400 : Configuring Cloud Manager Settings
 
 ## Introduction
 This lab will guide you on how to configure the system and infrastructure settings on Cloud Manager

@@ -3,6 +3,9 @@
 ## Introduction
 In this hands-on lab, the users are provided with step-by-step instructions on setting up a user group, creating and adding users to a group, and creating a compartment and respective policies in the **Oracle Cloud Infrastructure (OCI)**. Subsequently, this guide instructs how to install the Cloud Manager 11 using Marketplace. The final section provides the steps to provision a PeopleSoft Environment followed by some simple hands-on exercises for you to get familiar with the system.
 
+You can download the Word file here : [PSFT-Workshop Doc](https://objectstorage.us-ashburn-1.oraclecloud.com/p/karGThbLHTSjulPptce1Vh4aEZNCbAHvl4tl6XVYeYRHgCOpwFsQyi4_82O8NT05/n/orasenatdpltoci03/b/TestDrive/o/PSFT-HOL-Workshop-V1.docx)
+You can download the PPT file here : [PSFT-Workshop PPT](https://objectstorage.us-ashburn-1.oraclecloud.com/p/0QHo_3IYUvoU7mdHlc2CgyF9hySoay4jhb5BWNM-7ve_nQEJB4IwlK594fRVbie4/n/orasenatdpltoci03/b/TestDrive/o/PSFT-CM-LabOverview.pptx)
+
 The lab is divided into the following sections:
 
 ## Overview of Labs
@@ -49,9 +52,7 @@ The lab is divided into the following sections:
 
     b. User must have admin privileges on their laptop to update the **etc/hosts** file to add URL/IP address for PSFT Cloud Manager. Please let the team know if you can't get this access.
 
-    **NOTE: If you don't have admin privileges in your local machine, please make sure to follow the "Windows VM Compute" Lab during Lab 300 before starting Part 6. You can use the windows compute to follow this Workshop. Please also make sure to install Git Bash in Windows Compute.**
-
-    You will also need to install **Remote Desktop Connection** in your local machine from this [link](https://www.microsoft.com/en-us/p/microsoft-remote-desktop/9wzdncrfj3ps).
+    **NOTE: If you don't have admin privileges in your local machine, please make sure to follow the "Windows VM Compute" Lab. You can use the windows compute to follow this Workshop. Please also make sure to install Git Bash in Windows Compute.** You will also need to install **Remote Desktop Connection** in your local machine from this [link](https://www.microsoft.com/en-us/p/microsoft-remote-desktop/9wzdncrfj3ps).
 
     c. A web browser to connect to OCI web console and Cloud Manager PIA – Firefox or Chrome recommended.
 	
