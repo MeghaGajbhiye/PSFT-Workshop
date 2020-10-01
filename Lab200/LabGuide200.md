@@ -178,10 +178,7 @@ This name will be used as part of the URL you use to access Cloud Manager in a b
 
 ![](./images/applydetail.png "")
 
-
-NOTE: This is a long process, if you are not able to complete this in session 1, please make sure to watch this video to make sure you complete till Level 500 before session 2. [Video](https://objectstorage.us-ashburn-1.oraclecloud.com/p/m9ftrl_8RSOMrmOdBU-40MvIIZHbVABb6kOgYs54dIyHACgdyvZWaxw4B35y1oN6/n/orasenatdpltoci03/b/TestDrive/o/LabOverview.mp4)
-
-Terraform Apply job is a long-running process.  After it completes, the output from this job will have the IP address and PIA URL of CM instance.  To obtain those details, click on the Job name. 
+Wait for a while, after it completes, the output from this job will have the IP address and PIA URL of CM instance.  To obtain those details, click on the Job name. 
 
 ![](./images/12.png "")
 
@@ -269,7 +266,8 @@ The deployment automation (Resource Manager Stack) provisions numerous resources
 
 ## Part 9. Access Cloud Manager
 
-NOTE: Usually, it takes an hour for Cloud Manager to finish the bootstrap script. Till the script is successfully executed and you get the above message, you won't be able to access cloud manager URL. 
+NOTE: Usually, it takes an hour for Cloud Manager to finish the bootstrap script. Till the script is successfully executed and you get the above message, you won't be able to access cloud manager URL. This is a long process, if you are not able to complete this in session 1, please make sure to watch this video to make sure you complete till Level 500 before session 2. [Video](https://objectstorage.us-ashburn-1.oraclecloud.com/p/m9ftrl_8RSOMrmOdBU-40MvIIZHbVABb6kOgYs54dIyHACgdyvZWaxw4B35y1oN6/n/orasenatdpltoci03/b/TestDrive/o/LabOverview.mp4)
+
 
 1. Launch a browser in your local machine to access your Cloud Manager PIA URL (CM\_http\_url) 
 
