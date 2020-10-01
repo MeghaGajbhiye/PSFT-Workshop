@@ -179,8 +179,7 @@ This name will be used as part of the URL you use to access Cloud Manager in a b
 ![](./images/applydetail.png "")
 
 
-NOTE: This is a long process, if you are not able to complete this in session 1, please make sure to watch this video to make sure you complete till Level 500 before session 2. [Video](https://objectstorage.us-ashburn-1.oraclecloud.com/p/m9ftrl_8RSOMrmOdBU-40MvIIZHbVABb6kOgYs54dIyHACgdyvZWaxw4B35y1oN6/n/orasenatdpltoci03/b/TestDrive/o/LabOverview.mp4
-)
+NOTE: This is a long process, if you are not able to complete this in session 1, please make sure to watch this video to make sure you complete till Level 500 before session 2. [Video](https://objectstorage.us-ashburn-1.oraclecloud.com/p/m9ftrl_8RSOMrmOdBU-40MvIIZHbVABb6kOgYs54dIyHACgdyvZWaxw4B35y1oN6/n/orasenatdpltoci03/b/TestDrive/o/LabOverview.mp4)
 
 Terraform Apply job is a long-running process.  After it completes, the output from this job will have the IP address and PIA URL of CM instance.  To obtain those details, click on the Job name. 
 
