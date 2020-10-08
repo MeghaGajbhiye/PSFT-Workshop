@@ -17,7 +17,7 @@ Users can select a template, override topologies, change any attributes, if need
 
 ![](./images/1.png "")
 
-2.	Review the nodes and update the Shapes.  Click Full Tier node and select a shape that is available in your AD 2. 
+2.	Review the nodes and update the Shapes.  Click Full Tier node and select a shape that is available in your AD 2. (Click on the down arrow to see the shapes) 
 In this case, select VM.Standard2.1 or VM.Standard2.2. 
 Review the available shapes in your AD, as explained in Lab 100.
 

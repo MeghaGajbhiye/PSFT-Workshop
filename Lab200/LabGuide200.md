@@ -63,11 +63,11 @@ Note: These Keys are necessary for you to be able to securely connect into your 
 
 Paste the below information in a notepad. You will need it later while creating the stack.
 
-1. From the same User detail page, copy the OCID by clicking on **copy**. 
+1. From the same User detail page, copy the OCID by clicking on **copy** and paste it in your notepad. 
 
 ![](./images/ocid.png "")
 
-2. On the top right, click on the region. Note the home region displayed. 
+2. On the top right, click on the region. Note the home region displayed in your notepad. 
 
 ![](./images/homeregion.png "")
 
@@ -83,7 +83,7 @@ To obtain the PeopleSoft Cloud Manager stack:
 
 ![](./images/searchpsft.png "")
 
-3. On the Overview page for the PeopleSoft Cloud Manager stack, select the **compartment to install the instance**.
+3. On the Overview page for the PeopleSoft Cloud Manager stack, select the **compartment to install the instance**. If it's a nested compartment, make sure to click on **+** to navigate to your sub-compartment.   
 Review the **Oracle terms**, and then select the option indicating that you have reviewed and understand the conditions.
 Click **Launch Stack**. 
 
@@ -109,7 +109,7 @@ The Create Stack, Configure Variables page includes a list of the parameters nee
 
 4. For SSH public key, enter content of your **id_rsa.pub** key (the one you created with the script) in a single line, with no line feeds or spaces.
 
-5. Enter your User OCID in a single line, with no line feeds or spaces.
+5. Enter your User OCID (you have copied this in your notepad in Part 3) in a single line, with no line feeds or spaces.
 
 6. For API private key, enter the contents of your **api_key** file. 
 Below table summarizes the inputs in Configure Variables page.  
@@ -118,7 +118,7 @@ Below table summarizes the inputs in Configure Variables page.
 
 ![](./images/values1.png "")
 
-8. For **Tenancy Home Region**, Select the home region for your tenancy from the drop-down list.
+8. For **Tenancy Home Region**, Select the home region for your tenancy from the drop-down list. (You have noted this down in your notepad in Part 3)
 
 9. Enter following value:
 
@@ -156,7 +156,7 @@ This name will be used as part of the URL you use to access Cloud Manager in a b
 
 ![](./images/review.png "")
 
-17.	This will add a new stack and open the stack details page. You can navigate to Variables to see all the assigned variables.
+17.	This will add a new stack. Click on **stack details**. You can navigate to Variables to see all the assigned variables.
 
 ![](./images/variablestack.png "")
 
@@ -168,7 +168,9 @@ This name will be used as part of the URL you use to access Cloud Manager in a b
 
 ![](./images/plandetail.png "")
 
-20. After plan is succeeded, click on **Terraform Actions** -> **Apply**.
+	Refresh the page after a few minutes to see the status.
+
+20. Refresh the page, it will say the plan is succeeded. Navigate back to **Stack Details** page, click on **Terraform Actions** -> **Apply**.
 
 ![](./images/plans.png "")
 
@@ -184,7 +186,7 @@ Wait for a while, after it completes, the output from this job will have the IP 
 
 On the job details page, click on **Logs** under Resources. 
 
-Scroll at the bottom and make a **note of CM\_public\_ip and CM\_http\_url**. (Wait for a while if you can't see this information)
+Scroll at the bottom and make a **note of CM\_public\_ip and CM\_http\_url** in your notepad. (Wait for a while if you can't see this information)
 
 ![](./images/output.png "")
 
@@ -197,7 +199,7 @@ Lab: Windows Compute Instance (This is after Additional Labs, after lab 800).
 
 Below are the steps for both windows (step 1) and Mac (step 2). Make sure you have admin access in your local machine. If not, please follow the lab Windows Conpute Instance (See above screenshot). 
 
-1.	Windows: Add an entry to C:\Windows\System32\drivers\etc\hosts entry on your laptop/workstation as shown below. Use the hostname value for attribute CM\_http\_url. (Hostname is everything after **http://** and before **:8000**, in my case it is **psftcm.sub09220136550.ociholvcn.oraclevcn.com**. Check your CM\_http\_url from above step and modify it as per)
+1.	Windows: Add an entry to C:\Windows\System32\drivers\etc\hosts entry on your laptop/workstation as shown below. Use the hostname value for attribute CM\_http\_url (you have copied CM\_http\_url and CM\_public\_ip in your notepad). (Hostname is everything after **http://** and before **:8000**, in my case it is **psftcm.sub09220136550.ociholvcn.oraclevcn.com**. Check your CM\_http\_url from above step and modify it as per). 
 
 	I.	Open Windows Search “Notepad”. Right Click on Notepad and open as Administrator.
 
@@ -205,14 +207,15 @@ Below are the steps for both windows (step 1) and Mac (step 2). Make sure you ha
 
 	II.	Go to File -> Open -> C:\Windows\System32\drivers\etc\hosts, and append below entry
 
+	```
 	CM_public_ip  Hostname of CM_http_url
-
+	```
 	Example: 
 
 	```
 	129.213.145.213  labcm.cm.labnet.oraclevcn.com
 	```
-23.	Mac: Add an entry to /private/etc/hosts entry on your laptop/workstation. Use the hostname value for attribute CM\_http\_url. (Hostname is everything after **http://** and before **:8000**, in my case it is psftcm.sub09220136550.ociholvcn.oraclevcn.com. Check your CM\_http\_url from the above step and modify it as per)
+23.	Mac: Add an entry to /private/etc/hosts entry on your laptop/workstation. Use the hostname value for attribute CM\_http\_url (you have copied CM\_http\_url and CM\_public\_ip in your notepad). (Hostname is everything after **http://** and before **:8000**, in my case it is psftcm.sub09220136550.ociholvcn.oraclevcn.com. Check your CM\_http\_url from the above step and modify it as per)
 
 	I.	Open Terminal and type **sudo vi /private/etc/hosts**. It will ask you for password, it's your laptop password. 
 	Press **i** in your keypad. This will take you to the insert mode and now you can edit the file.
@@ -229,6 +232,8 @@ Below are the steps for both windows (step 1) and Mac (step 2). Make sure you ha
 
 SSH key pair required to access Cloud Manager instance was created in Part 1 of Lab 300. 
 
+**NOTE**: Make sure you are off VPN.
+
 1.	Launch terminal or Git Bash and navigate to the keys folder. 
 
 2.	Retrieve the Cloud Manager IP address.  It was provided as output when the stack was applied.
@@ -238,7 +243,7 @@ SSH key pair required to access Cloud Manager instance was created in Part 1 of 
 3.	Navigate to the folder where you have created the keys. SSH into the Cloud Manager instance using the below command. 
 
 ```
-$ ssh -i id_rsa opc@129.213.145.213 //Use your IP
+$ ssh -i id_rsa opc@<<CM_public_ip>>
 ```
 
 ## Part 8. Monitoring Cloud Manager
@@ -264,10 +269,11 @@ The deployment automation (Resource Manager Stack) provisions numerous resources
 		Cloud Manager PIA URL: http://labcm.cm.labnet.oraclevcn.com:8000 
 		Cloud Manager PIA SSL URL: https://labcm.cm.labnet.oraclevcn.com:8443
 
+NOTE: Usually, it takes an hour for Cloud Manager to finish the bootstrap script. Till the script is successfully executed and you get the above message, you won't be able to access cloud manager URL. This is a long process. 
+
+Here is a video  which navigates you through the workshop till Level 500. [Video](https://objectstorage.us-ashburn-1.oraclecloud.com/p/m9ftrl_8RSOMrmOdBU-40MvIIZHbVABb6kOgYs54dIyHACgdyvZWaxw4B35y1oN6/n/orasenatdpltoci03/b/TestDrive/o/LabOverview.mp4)
+
 ## Part 9. Access Cloud Manager
-
-NOTE: Usually, it takes an hour for Cloud Manager to finish the bootstrap script. Till the script is successfully executed and you get the above message, you won't be able to access cloud manager URL. This is a long process, if you are not able to complete this in session 1, please make sure to watch this video to make sure you complete till Level 500 before session 2. [Video](https://objectstorage.us-ashburn-1.oraclecloud.com/p/m9ftrl_8RSOMrmOdBU-40MvIIZHbVABb6kOgYs54dIyHACgdyvZWaxw4B35y1oN6/n/orasenatdpltoci03/b/TestDrive/o/LabOverview.mp4)
-
 
 1. Launch a browser in your local machine to access your Cloud Manager PIA URL (CM\_http\_url) 
 

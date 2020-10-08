@@ -9,19 +9,24 @@ This lab will guide you through creating your own OCI environment.
 
 ![](./images/4.png "")
 
-2. On the Oracle Cloud Sign Up page, enter the requested information, including your Cloud account name (Tenancy name) and password.
+2. On the Oracle Cloud Sign Up page, enter the requested information, including your Cloud account name (This is your Tenancy name - assign a unique tenancy name to login to) and password.
 
 ```
 Note: Ensure that you use the same email address used when you registered.
 ```
 ![](./images/ci.png "")
 
-3. Fill all the information. Accept the Agreement and click on **Start my free trial.**
+3. Make sure your pop-up for the browser is enabled. Once the pop-up screen appears, make sure you select the offer by clicking on the circle.
+
+![](./images/pu.png "")
+
+4. Fill all the information. Please give the home region as **us-ashburn-1**. Accept the Agreement and click on **Start my free trial.**
 
 ![](./images/ci1.png "")
 
-4. You should shortly get an email with the login details.
+5. You should shortly get an email with the login details.
 
+Lab 100 is completed. Please click on Lab 200.
 
 
 

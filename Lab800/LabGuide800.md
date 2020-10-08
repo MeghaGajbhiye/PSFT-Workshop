@@ -13,7 +13,7 @@ Time: 90 mins
 
 ![](./images/e2.png "")
 
-3. Expand **Environment Attributes -> Region and Availability Domains -> Credentials**
+3. Go to **Environment Attributes -> Region and Availability Domains -> Credentials**
 
 Give following values to the field.
 
@@ -45,7 +45,7 @@ Leave the rest as default. You can also expand all sections under Environment At
 
 7. Monitor the deployment logs under Dashboard -> Environments -> Environment Name -> Action Menu -> Details -> Logs
 
-![](./images/e10.png "")
+![](./images/cl.png "")
 
 You can also go to **Provision Task Status** to see detailed progress status for every step. Click on **Deployment Tasks**. If any step fails, you can change the attribute as per the error and start the process from where it failed.
 
@@ -85,3 +85,12 @@ The actions can be:
 This option is only available for DBaaS environments.
 
 • **Backup and Restore**: Select this option to backup or restore an environment.
+
+NOTE: You can also login to your application by adding it's IP addess and host name in hosts file.
+
+Login credential: 
+
+```
+Username : PS
+Password: Psft1234
+```

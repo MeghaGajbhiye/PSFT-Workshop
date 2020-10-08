@@ -56,6 +56,10 @@ Please check if you have enough resource availability in your Availability Domai
 
 ![](./images/available.png "")
 
+**NOTE**: You will need 2 instances. Make sure you have at least 1 of each of the below marked resource (it doesn't need to be in same availability domain):
+
+![](./images/resource.png "")
+
 ## **Part 3:** Creating Compartments
 
 **Compartments Overview:**
@@ -74,7 +78,7 @@ A compartment is a collection of cloud assets, like compute instances, load bala
 
 3.	You have just created a compartment for all of your work in this Test Drive.
 
-## **Step 4:** Managing Users, Groups, and Policies to Control Access
+## **Part 4:** Managing Users, Groups, and Policies to Control Access
 
 **Security Overview:** 
 
@@ -94,7 +98,7 @@ We'll create a user, a group, and a security policy to understand the concept.
 
         2. Description: Enter a description (for example, “New group for OCI users”).
 
-        3. Click Submit.
+        3. Click Create.
 
 ![](./images/creategroup.png "")
 

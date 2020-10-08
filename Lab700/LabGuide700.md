@@ -9,10 +9,14 @@ Time: 10 mins
 1.	Navigate to Dashboard -> Environment Template.  
 Click Add New Template button. Provide below details and click Next. 
 
-Name | MYPUM
+Field | Value
 ---- | -----
+Name | MYPUM
 Description	| Test a PUM image
-Database | Click on Search icon and select a downloaded DPK.  For example. PEOPLESOFT HCM UPDATE IMAGE 9.2.030 - NATIVE OS
+Peoplesoft Image | Don't type anything. Click on Search icon and select the downloaded DPK.  For example, in our case it is PEOPLESOFT HCM UPDATE IMAGE 9.2.030 - NATIVE OS
+
+NOTE: don't type PEOPLESOFT HCM UPDATE IMAGE 9.2.030 in the Peoplesoft Image field. If the DPKs are downloaded, you will be able to see it in the Search Results as shown in 2nd screenshot below. If you can't see it yet, please wait and refresh after a while.
+
 
 ![](./images/s2.png "")
 
