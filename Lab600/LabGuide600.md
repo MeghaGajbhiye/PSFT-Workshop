@@ -21,7 +21,7 @@ Users can select a template, override topologies, change any attributes, if need
 In this case, select VM.Standard2.1 or VM.Standard2.2. 
 Review the available shapes in your AD, as explained in Lab 100.
 
-![](./images/2.png "")
+![](./images/topology.png "")
 
 3.	Delete the Windows node from the topology. Click ‘Delete’ on the page shown below and save the topology. 
 
