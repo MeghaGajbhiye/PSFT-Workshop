@@ -59,6 +59,8 @@ Enter the default password you noted from the instance details page.
 
 4. Change the password to **Psft@12345678**. 
 
+You may now proceed to the next lab.
+
 ## Acknowledgements
 
 **Created By/Date**   
