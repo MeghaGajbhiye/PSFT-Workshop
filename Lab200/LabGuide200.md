@@ -8,6 +8,8 @@ Time: 80 min
 
 ## Part 1. Generating Keys
 
+You can also use these pre-built keys for the demo purpose: [TestDrivekeys.zip](TestDrivekeys.zip)
+
 1. Ensure Git Bash is installed on your laptop/workstation.
 
 2. Download the following script - [make_keys.sh](make_keys.sh)
