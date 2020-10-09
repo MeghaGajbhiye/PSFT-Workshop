@@ -61,7 +61,7 @@ Enter the default password you noted from the instance details page.
 
 ## Acknowledgements
 
-**Last Updated By/Date**   
+**Created By/Date**   
 - Rich Konopka, Peoplesoft Specialist, October 2020  
 - Megha Gajbhiye, Cloud Solutions Engineer, October 2020  
 

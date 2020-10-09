@@ -29,7 +29,7 @@ As a take home exercise, you can provision a PeopleSoft environment with a Windo
 
 ## Acknowledgements
 
-**Last Updated By/Date**   
+**Created By/Date**   
 - Rich Konopka, PSFT Specialist, October 2020
 - Megha Gajbhiye, Cloud Solutions Engineer, October 2020
 
