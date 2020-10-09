@@ -34,7 +34,7 @@ As a take home exercise, you can provision a PeopleSoft environment with a Windo
 - Megha Gajbhiye, Cloud Solutions Engineer, October 2020  
 
 **Last Updated By/Date**    
-- Sara Lipowsky, Cloud Engineering, October 2020  
+- Sara Lipowsky, Cloud Solutions Engineer, October 2020  
 
 ## See an issue?
 

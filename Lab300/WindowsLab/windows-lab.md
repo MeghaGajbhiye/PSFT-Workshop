@@ -66,7 +66,7 @@ Enter the default password you noted from the instance details page.
 - Megha Gajbhiye, Cloud Solutions Engineer, October 2020  
 
 **Last Updated By/Date**    
-- Sara Lipowsky, Cloud Engineering, October 2020  
+- Sara Lipowsky, Cloud Solutions Engineer, October 2020  
 
 ## See an issue?
 
