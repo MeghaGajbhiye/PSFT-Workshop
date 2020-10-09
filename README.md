@@ -67,7 +67,7 @@ The lab is divided into the following sections:
 - Megha Gajbhiye, Cloud Solutions Engineer, October 2020  
 
 **Last Updated By/Date**    
-- Sara Lipowsky, Cloud Engineering, October 2020  
+- Sara Lipowsky, Cloud Solutions Engineer, October 2020  
 
 ## See an issue?
 
