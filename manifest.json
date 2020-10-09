@@ -8,54 +8,54 @@
         {
             "title": "Lab 100: Preparing OCI tenancy",
             "publisheddate": "09/21/2020",
-            "filename": "./Lab100/LabGuide100.md"
+            "filename": "./Lab100/lab-100.md"
         },
         {
             "title": "Lab 200: Creating IAM resources",
             "publisheddate": "09/21/2020",
-            "filename": "./IAM Lab - Best Practices/LabGuide-IAM.md"
+            "filename": "./Lab200/lab-200.md"
         },
         {
             "title": "Lab 300: Provisioning Peoplesoft Cloud Manager from Marketplace",
             "publisheddate": "09/21/2020",
-            "filename": "./Lab200/LabGuide200.md"
+            "filename": "./Lab300/lab-300.md"
         },
         {
             "title": "Lab 400: Configuring Cloud Manager Settings",
             "publisheddate": "09/21/2020",
-            "filename": "./Lab300/LabGuide300.md"
+            "filename": "./Lab400/lab-400.md"
         },
         {
             "title": "Lab 500: Subscribing to PeopleSoft Download Channels",
             "publisheddate": "09/21/2020",
-            "filename": "./Lab500/LabGuide500.md"
+            "filename": "./Lab500/lab-500.md"
         },
         {
             "title": "Lab 600: Reviewing and updating a Topology",
             "publisheddate": "09/21/2020",
-            "filename": "./Lab600/LabGuide600.md"
+            "filename": "./Lab600/lab-600.md"
         },
 
         {
             "title": "Lab 700: Creating new Environment Template",
             "publisheddate": "09/21/2020",
-            "filename": "./Lab700/LabGuide700.md"
+            "filename": "./Lab700/lab-700.md"
         },
 
         {
             "title": "Lab 800: Creating Environment in PeopleSoft",
             "publisheddate": "09/21/2020",
-            "filename": "./Lab800/LabGuide800.md"
+            "filename": "./Lab800/lab-800.md"
         },
         {
             "title": "Additional Lab: Provisioning Environments with Windows Clients",
             "publisheddate": "09/21/2020",
-            "filename": "./Additional Lab/AdditionalLab.md"
+            "filename": "./AdditionalLab/additional-lab.md"
         },
         {
             "title": "Windows Compute Instance",
             "publisheddate": "09/21/2020",
-            "filename": "./Lab200/WindowsVMCompute/WindowsLab.md"
+            "filename": "./Lab300/WindowsLab/windows-lab.md"
         }
 
      ]
