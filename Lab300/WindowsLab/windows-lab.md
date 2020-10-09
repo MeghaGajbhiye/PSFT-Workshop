@@ -1,4 +1,4 @@
-# Windows VM Compute Lab (Optional): Provision Windows Compute in OCI
+# Windows VM Compute Lab (Optional) : Provision Windows Compute in OCI
 
 ## Introduction
 

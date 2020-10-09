@@ -6,54 +6,54 @@
             "filename": "./README.md"
         },
         {
-            "title": "Lab 100: Preparing OCI tenancy",
+            "title": "Lab 1 : Setting up Oracle Cloud Infrastructure.",
             "publisheddate": "09/21/2020",
             "filename": "./Lab100/lab-100.md"
         },
         {
-            "title": "Lab 200: Creating IAM resources",
+            "title": "Lab 2 : Creating Identity and Access Management (IAM) resources.",
             "publisheddate": "09/21/2020",
             "filename": "./Lab200/lab-200.md"
         },
         {
-            "title": "Lab 300: Provisioning Peoplesoft Cloud Manager from Marketplace",
+            "title": "Lab 3 : Provisioning the Peoplesoft Cloud Manager using Marketplace.",
             "publisheddate": "09/21/2020",
             "filename": "./Lab300/lab-300.md"
         },
         {
-            "title": "Lab 400: Configuring Cloud Manager Settings",
+            "title": "Lab 4 : Configuring Cloud Manager Settings.",
             "publisheddate": "09/21/2020",
             "filename": "./Lab400/lab-400.md"
         },
         {
-            "title": "Lab 500: Subscribing to PeopleSoft Download Channels",
+            "title": "Lab 5 : Subscribing to PeopleSoft Download Channels",
             "publisheddate": "09/21/2020",
             "filename": "./Lab500/lab-500.md"
         },
         {
-            "title": "Lab 600: Reviewing and updating a Topology",
+            "title": "Lab 6 : Reviewing and Updating a Topology",
             "publisheddate": "09/21/2020",
             "filename": "./Lab600/lab-600.md"
         },
 
         {
-            "title": "Lab 700: Creating new Environment Template",
+            "title": "Lab 7 : Creating new Environment Template",
             "publisheddate": "09/21/2020",
             "filename": "./Lab700/lab-700.md"
         },
 
         {
-            "title": "Lab 800: Creating Environment in PeopleSoft",
+            "title": "Lab 8 : Creating Environment in PeopleSoft",
             "publisheddate": "09/21/2020",
             "filename": "./Lab800/lab-800.md"
         },
         {
-            "title": "Additional Lab: Provisioning Environments with Windows Clients",
+            "title": "Additional Lab : Provisioning Environments with Windows Clients",
             "publisheddate": "09/21/2020",
             "filename": "./AdditionalLab/additional-lab.md"
         },
         {
-            "title": "Windows Compute Instance",
+            "title": "Windows VM Compute Lab (Optional) : Provision Windows Compute in OCI",
             "publisheddate": "09/21/2020",
             "filename": "./Lab300/WindowsLab/windows-lab.md"
         }
