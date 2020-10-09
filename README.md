@@ -24,6 +24,7 @@ We will create the following cloud resources:
 - Network resources - Virtual Cloud Network + Public Subnet  
 - Linux instance for Peoplesoft Cloud Manager  
 - Linux instance for Peoplesoft HCM Application
+- Windows Instance for lab execution (Optional)
 
 ### **Objectives**
 
